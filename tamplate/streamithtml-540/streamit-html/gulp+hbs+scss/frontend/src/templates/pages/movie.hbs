@@ -1,0 +1,316 @@
+{{#extend layout title="Movie" active="movie" isHeader="true" isFooter="true" path="./" isFslightbox="true"
+isSwiperSlider="true" bodyClass="custom-header-relative" isSweetalert="true"}}
+{{#content "content"}}
+{{!-- main banner start --}}
+<section class="banner-container">
+  <div class="movie-banner">
+    <div class="swiper swiper-banner-container" data-swiper="banner-detail-slider">
+      <div class="swiper-wrapper">
+        {{> components/widgets/movie-slider movieCard="movie-banner-1" image-path="media/arrival.webp"
+        movieRating="true" movieTitle="Arrival" movieRange="4" movieCate="PG" movieTime="2hr : 15m" movieYear="May
+        2025" calender-icon="true" movieRating="true"
+        button-url="movie-detail.html" movieText="Arrival is a science fiction film directed by Denis Villeneuve, based
+        on Ted Chiangnovella Story of Your Life. The movie follows linguist Dr. Louise Banks (Amy Adams) as she is
+        recruited by the U.S. military to communicate with mysterious extraterrestrial beings who have arrived on Earth
+        in massive, hovering spacecraft. As global tensions rise and nations scramble to interpret the aliens
+        intentions, Louise works with physicist Ian Donnelly (Jeremy Renner) to decipher their complex, nonlinear
+        language. The film explores themes of time, communication, and the nature of human experience, blending
+        intellectual depth with emotional resonance."}}
+
+        {{> components/widgets/movie-slider movieCard="movie-banner-2" image-path="media/rabbit.webp"
+        movieRating="true" movieTitle="Rabbit" movieRange="8" movieCate="NC-17" movieTime="2hr : 30m"
+        movieYear="Dec 2018" calender-icon="true" movieRating="true"
+        button-url="movie-detail.html" movieText="The film builds tension through atmospheric cinematography, depicting
+        haunting landscapes in Australia's Riverland region. Critics have praised Sarah Snook's performance but noted
+        the film's reliance on familiar horror tropes, comparing it to The Babadook and Hereditary. Despite mixed
+        reviews, Run Rabbit Run stands out for its exploration of motherhood, grief, and the psychological toll of
+        buried memories."}}
+
+        {{> components/widgets/movie-slider movieCard="movie-banner-3" image-path="media/chosfies.webp"
+        movieRating="true" movieTitle="Chosfies" movieRange="3.5" movieCate="NC-17" movieTime="2hr : 6m" movieYear="May
+        2025" calender-icon="true" movieRating="true" button-url="movie-detail.html" movieText="The film Chosfies
+        appears to be an intriguing mix of action, adventure, and animated elements. The film is set in a fictional
+        world where characters encounter intense challenges and dangerous quests that drive the storyline. While
+        specific plot details are limited, it seems to attract fans interested in high-energy, animated adventures,
+        similar to other popular films within the genre."}}
+        
+        {{> components/widgets/movie-slider movieCard="movie-banner-4" image-path="media/fast-furious.webp"
+        movieRating="true" movieTitle="Fast & Furious" movieRange="5" movieCate="PG" movieTime="2hr : 45m" movieYear="Oct
+        2025" calender-icon="true" movieRating="true" button-url="movie-detail.html" movieText="The First of Us – In a post-apocalyptic world, a small group of survivors uncovers the origins of humanity’s downfall. As they journey through a dangerous, desolate landscape, they realize they may hold the key to rebuilding civilization—or ensuring its final extinction."}}
+      </div>
+      <div class="swiper-banner-button-next d-none d-lg-block">
+        <i class="ph ph-caret-right icli  arrow-icon"></i>
+      </div>
+      <div class="swiper-banner-button-prev d-none d-lg-block">
+        <i class="ph ph-caret-left icli  arrow-icon"></i>
+      </div>
+      <div class="swiper-pagination d-block d-lg-none"></div>
+    </div>
+  </div>
+</section>
+{{!-- main banner End --}}
+
+<div class="container-fluid">
+  <div class="overflow-hidden">
+    {{!-- Top 10 start --}}
+    <div class="top-ten-block section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">top 10 movies to watch</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card iq-top-ten-block-slider" data-slide="6" data-laptop="6"
+          data-tab="3" data-mobile="2" data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true"
+          data-pagination="true">
+          <ul class="p-0 swiper-wrapper mb-5 list-inline">
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/gameofhero-portrait.webp" count-value="1"
+              cardurl-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/rabbit-portrait.webp" count-value="2"
+              cardurl-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/chosfies-portrait.webp"
+              count-value="3"cardurl-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/dinoosaur-portrait.webp" count-value="4"
+              cardurl-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/krishna-portrait.webp"
+              count-value="5"cardurl-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/venom-portrait.webp"
+              count-value="6"cardurl-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/the-hunter-portrait.webp" count-value="7"
+              cardurl-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/kali-portrait.webp"
+              count-value="8"cardurl-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/jumanji-portrait.webp"
+              count-value="9"cardurl-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/migration-portrait.webp" count-value="10"
+              cardurl-path="movie-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!-- Top 10 End --}}
+
+    {{!-- Popular Movies Start --}}
+    <div class="recommended-block section-top-spacing section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Popular Movies</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="5" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="true" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/rabbit-portrait.webp" card-title="Rabbit"
+              movie-time="1h : 55m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/migration-portrait.webp" card-title="Migration"
+              movie-time="1h : 25m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/war-for-the-planet-portrait.webp" card-title="War for
+              the planet"
+              movie-time="1hr : 30mins" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-hunter-portrait.webp" card-title="The Hunter"
+              movie-time="2h : 12m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/chosfies-portrait.webp" card-title="Chosfies"
+              movie-time="1h : 45m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/venom-portrait.webp" card-title="Venom"
+              movie-time="2h : 30m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/dinoosaur-portrait.webp" card-title="Dinoosaur"
+              movie-time="2h : 45m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!-- Popular Movies End --}}
+
+    {{!-- Upcoming Movie --}}
+    <div class="streamit-block section-wraper">
+      <div class="d-flex align-items-center justify-content-between  px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Upcoming Movies</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="true" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-first-of-us-portrait.webp" card-title="ariivaal"
+              movie-time="2h : 45m" prodct-primium="true" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-co-noueriing-portrait.webp" card-title="The
+              Co-noueriing"
+              movie-time="1h : 22m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/giirek-portrait.webp" card-title="Giirek"
+              movie-time="1h : 55m" prodct-primium="true" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/another-danger-portrait.webp" card-title="Another
+              Danger" movie-time="1h : 30m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/kung-fu-panda-portrait.webp" card-title="Kung fu Panda"
+              movie-time="2h : 45m" prodct-primium="true" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/john-wick-portrait.webp" card-title="John Wick"
+              movie-time="1h : 45m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/spiderman-portrait.webp" card-title="Spiderman"
+              movie-time="2h : 30m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!--Upcoming Movie end --}}
+
+    {{!-- Specials & Latest Movies Strat --}}
+    <div class="recommended-block section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Specials & Latest Movies</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="5" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="true" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/deadpool.webp"
+              card-title="Deadpool"
+              movie-time="2h : 12m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/the-hunter.webp"
+              card-title="The Hunter" movie-time="1hr : 30mins" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/gameofhero.webp" card-title="Game
+              of Hero"
+              movie-time="2h : 30m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/the-first-of-us.webp"
+              card-title="ariivaal"
+              movie-time="2h : 45m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/rabbit.webp" card-title="Rabbit"
+              movie-time="1h : 55m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/migration.webp"
+              card-title="Migration"
+              movie-time="1h : 25m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/chosfies.webp"
+              card-title="Chosfies"
+              movie-time="1h : 45m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!-- Specials & Latest Movies End --}}
+
+    {{!-- Movies Recommended For You Strat --}}
+    <div class="recommended-blocks section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Movies Recommended For You</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="5" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="true" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/pirates-ofdayones-orignal.webp" card-title="Pirates of
+              Dayones"
+              movie-time="1hr : 30mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-hunter.webp" card-title="The Hunter"
+              movie-time="1h : 55m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/lost-in-space-portrait.webp" card-title="Lost in Space"
+              movie-time="1h : 25m" product-premium="true" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/castle-rock-portrait.webp" card-title="Castle Rock"
+              movie-time="2hr : 30mins" product-premium="true" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/breaking-bad-portrait.webp" card-title="Breaking Bad"
+              movie-time="1hr : 45mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/assassins-creed-portrait.webp" card-title="Assassin's
+              Creed" movie-time="1hr : 30mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/vikings-portrait.webp" card-title="Vikings"
+              movie-time="2h : 12m" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!-- Movies Recommended For You End --}}
+  </div>
+</div>
+
+{{!-- Mobile Footer --}}
+{{> components/widgets/mobile-footer}}
+{{/content}}
+{{/extend}}

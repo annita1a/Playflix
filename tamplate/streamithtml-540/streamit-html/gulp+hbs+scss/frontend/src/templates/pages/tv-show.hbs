@@ -1,0 +1,359 @@
+{{#extend layout title="Tv Show" active="tv-show" isHeader="true" isFooter="true" path="./" isFslightbox="true"
+isSwiperSlider="true" bodyClass="custom-header-relative" isSweetalert="true"}}
+{{#content "content"}}
+{{!-- main banner start --}}
+<div class="banner-container">
+  <div class="movie-banner">
+    <div class="swiper swiper-banner-container iq-rtl-direction" data-swiper="banner-detail-slider">
+      <div class="swiper-wrapper">
+        {{> components/widgets/movie-slider movieCard="tv-show-1" image-path="media/vikings.webp"
+        movieTitle="vikings" movieRating="true" movieRange="3.5" NoOfSeasons="2" movieYear="January 2025"
+        calender-icon="true"
+        button-url="tv-show-detail.html" movieText="As Ragnar Lodbrok, a Norse farmer, carries out triumphant raids into
+        English territory with the help of his fellow warriors, he ends up holding sway over the Vikings and becoming a
+        Scandinavian king"}}
+
+        {{> components/widgets/movie-slider movieCard="tv-show-2" image-path="media/minions.webp" movieTitle="Minions"
+        movieRating="true" movieRange="3.5" NoOfSeasons="4" movieYear="July 2025" calender-icon="true"
+        button-url="tv-show-detail.html" movieText=" A hilarious animated series that follows the mischievous and
+        lovable Minions as they embark on wacky adventures, causing chaos and spreading laughter everywhere they go! "}}
+
+        {{> components/widgets/movie-slider movieCard="tv-show-3" image-path="media/breaking-bad.webp"
+        movieTitle="Breaking bad" movieRating="true" movieRange="6" NoOfSeasons="3" movieYear="July 2025"
+        calender-icon="true"
+        button-url="tv-show-detail.html" movieText="Breaking Bad transcended the confines of television, becoming a
+        symbol of narrative excellence and pushing the boundaries of storytelling. Its impact resonated far beyond the
+        screen, leaving an indelible imprint on popular culture and forever altering the landscape of modern television
+        dramas."}}
+
+        {{> components/widgets/movie-slider movieCard="tv-show-4" image-path="media/pirates-ofdayones-orignal.webp"
+        movieTitle="Pirates of Day One" movieRating="true" movieRange="5" NoOfSeasons="1" movieYear="March 2025"
+        calender-icon="true"
+        button-url="tv-show-detail.html" movieText="Pirates of Day One is an original, epic series that reimagines the classic pirate genre by blending adventure, fantasy, and historical drama. Set in an alternative 17th-century world where mythical creatures, ancient magic, and powerful artifacts exist, the series follows a ragtag crew of pirates with diverse backgrounds and mysterious pasts. Each character is drawn to the high seas for different reasons—revenge, freedom, treasure, or secrets. They form an unlikely family as they face formidable foes and legendary sea monsters, uncovering secrets that could reshape the world."}}
+      </div>
+      <div class="swiper-pagination d-block d-lg-none"></div>
+
+      <div class="swiper-banner-button-next d-none d-lg-block">
+        <i class="ph ph-caret-right icli  arrow-icon"></i>
+      </div>
+      <div class="swiper-banner-button-prev d-none d-lg-block">
+        <i class="ph ph-caret-left icli  arrow-icon"></i>
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- main banner End --}}
+
+<div class="container-fluid">
+  <div class="overflow-hidden">
+    {{!-- Top 10 start --}}
+    <div class="top-ten-block">
+      <div class="d-flex align-items-center justify-content-between  px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Top 10 TV Shows to Watch</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card iq-top-ten-block-slider" data-slide="6" data-laptop="4"
+          data-tab="3" data-mobile="2" data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true"
+          data-pagination="true" data-navigation-outer="true">
+          <ul class="p-0 swiper-wrapper mb-5 list-inline">
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/minions-portrait.webp" count-value="1"
+              cardurl-path="tv-show-detail.html"
+              }}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/breaking-bad-portrait.webp" count-value="2"
+              cardurl-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/kung-fu-panda-portrait.webp" count-value="3"
+              prodct-primium="true"cardurl-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/spiderman-portrait.webp" count-value="4"
+              cardurl-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/migration-portrait.webp"
+              count-value="5" prodct-primium="true"cardurl-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/midnightHunter-portrait.webp"
+              count-value="6"cardurl-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/the-hunter-portrait.webp"
+              count-value="7" prodct-primium="true"cardurl-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/hanuman-portrait.webp"
+              count-value="8"cardurl-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/lost-in-space-portrait.webp"
+              count-value="9"cardurl-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/krishna-portrait.webp" count-value="10"
+              cardurl-path="tv-show-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+        <div class="swiper-btn">
+        </div>
+      </div>
+    </div>
+    {{!-- Top 10 End --}}
+
+    {{!-- Popular Movies Start --}}
+    <div class="recommended-block section-top-spacing section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Popular TV Shows</h4>
+        <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none">View All</a>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card " data-slide="6" data-laptop="4" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/the-first-of-us.webp"
+              card-title="The First of Us" movie-time="2hr : 12m" card-lang="English (UK)"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/breaking-bad.webp"
+              card-title="Breaking Bad" movie-time="1hr : 22m" card-lang="English (UK)" prodct-primium="true"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/minions.webp"
+              card-title="Minions" movie-time="1hr : 30m" isnotlangCard="true" card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/tianic.webp"
+              card-title="Tianic" movie-time="1hr : 30m" card-lang="English (Australia)"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/migration.webp"
+              card-title="Migration" movie-time="1hr : 30m" isnotlangCard="true" prodct-primium="true"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/the-crew.webp"
+              card-title="The Crew" movie-time="1hr : 30m" isnotlangCard="true" card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style isCardStyle2="true" card-image="media/assassins-creed.webp"
+              card-title="Assassins Creed" movie-time="1hr : 30m" card-lang="English (Canada)"
+              card-path="tv-show-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!-- Popular Movies End --}}
+
+    {{!-- Upcoming Movie --}}
+    <div class="streamit-block section-wraper">
+      <div class="d-flex align-items-center justify-content-between  px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Upcoming TV Shows</h4>
+        <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none flex-none">View All</a>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="4" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="true" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-first-of-us-portrait.webp"
+              card-title="Awakening: The First Ones"
+              movie-time="2hr :
+              12m" card-lang="English (UK)" card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/migration-portrait.webp"
+              card-title="Beyond Borders"
+              movie-time="1hr : 22m" card-lang="English (UK)" prodct-primium="true" card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/tianic.webp" card-title="Titanic: Lost &
+              Found"
+              movie-time="2hr :
+              30m" card-lang="English (UK)" prodct-primium="true" card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-crew-portrait.webp" card-title="The Real
+              Crew" movie-time="1hr : 30m" card-lang="English (UK)" prodct-primium="true"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/pirates-ofdayones-orignal.webp"
+              card-title="Pirates Of Day One"
+              movie-time="1hr : 30m" isnotlangCard="true" card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/castle-rock-portrait.webp" card-title="Castle
+              Rock" movie-time="1hr:30m" isnotlangCard="true" prodct-primium="true" card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/vikings-portrait.webp" card-title="Vikings"
+              movie-time="1hr : 30m" card-lang="English (UK)" card-path="tv-show-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!--end Upcoming movie --}}
+
+
+    {{!-- Best Of International Shows Start --}}
+    <div class="recommended-block section-top-spacing section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Best of International Shows</h4>
+        <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none">View All</a>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="4" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/midnightHunter-portrait.webp"
+              card-title="Midnight Hunter"
+              movie-time="1hr : 30m" card-lang="English (Canada)" card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/spiderman.webp" card-title="Spider
+              Sentinel"
+              movie-time="1hr : 30m" card-lang="English (Australia)" card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/card-style card-image="media/kung-fu-panda-portrait.webp"
+              card-title="Masters Of Kung Fu: The Panda Legend" prodct-primium="true" isnotlangCard="true"
+              card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/card-style card-image="media/hanuman-portrait.webp" card-title="The
+              Epic Journey Of Hanuman" isnotlangCard="true"
+              card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/minions-portrait.webp"
+              card-title="Minions"
+              movie-time="2hr :
+              12m" card-lang="English (New Zealand)" card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/pirates-ofdayones-orignal.webp"
+              card-title="Pirates Of Day One"
+              movie-time="1hr : 30m" isnotlangCard="true" card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-hunter-portrait.webp" card-title="The Hunter"
+              movie-time="1hr : 30m" isnotlangCard="true" prodct-primium="true" card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/lost-in-space-portrait.webp" card-title="Lost
+              In Space"
+              movie-time="1hr : 30m" isnotlangCard="true" prodct-primium="true" card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/castle-rock-portrait.webp" card-title="Castle
+              Rock"
+              movie-time="1hr : 30m" isnotlangCard="true" prodct-primium="true" card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!-- Best Of International Shows End --}}
+
+    {{!-- Shows We Recommend Strat --}}
+    <div class="recommended-blocks section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Shows we Recommend</h4>
+        <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none">View All</a>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="4" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="true" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/midnightHunter-portrait.webp"
+              card-title="Midnight Hunter"
+              movie-time="1hr : 30m" card-lang="English (Canada)" card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/card-style card-image="media/kung-fu-panda-portrait.webp"
+              card-title="Masters Of Kung Fu: The Panda Legend" isnotlangCard="true"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/card-style card-image="media/hanuman-portrait.webp" card-title="The
+              Epic Journey Of Hanuman" isnotlangCard="true"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/krishna-portrait.webp"
+              card-title="Vasudeva: The Eternal Journey"
+              movie-time="2hr : 30m" card-lang="English (UK)" prodct-primium="true" card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/minions-portrait.webp"
+              card-title="Minions"
+              movie-time="2hr :
+              12m" card-lang="English (New Zealand)" prodct-primium="true" card-path="tv-show-detail.html"
+              card-path="tv-show-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/breaking-bad-portrait.webp" card-title="Breaking Bad"
+              movie-time="2hr : 25m" isnotlangCard="true" }}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/deadpool-portrait.webp" card-title="Deadpool"
+              movie-time="2hr : 25m" isnotlangCard="true" }}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!-- Shows We Recommend End --}}
+  </div>
+</div>
+
+{{!-- Mobile Footer --}}
+{{> components/widgets/mobile-footer}}
+
+
+{{/content}}
+{{/extend}}

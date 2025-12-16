@@ -1,0 +1,17 @@
+<div class="iq-top-ten-block position-relative">
+    <div class="block-image position-relative">
+        <div class="img-box">
+            <a class="overly-images" href="{{path}}{{cardurl-path}}">
+                <img src="{{path}}assets/images/{{image-path}}" alt="movie-card"
+                    class="object-cover rounded-3">
+            </a>
+            <span class="top-ten-numbers texture-text">{{count-value}}</span>
+        </div>
+    </div>
+    {{#if prodct-primium}}
+    <div class="position-absolute z-1 premium-product d-flex align-items-center justify-content-center">
+        <i class="ph-fill ph-crown fs-5"></i>
+    </div>
+    {{else}}
+    {{/if}}
+</div>

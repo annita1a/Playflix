@@ -1,0 +1,239 @@
+{{#extend layout title="Person Detail" active="personality-detail" isHeader="true" isFooter="true" path="./"
+isSwiperSlider="true" bodyClass="custom-header-relative" isSweetalert="true"}}
+{{#content "content"}}
+<div class="section-padding personality-detail">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="cast-box position-relative">
+          <img src="{{path}}assets/images/cast/charles-melton.webp" class="img-fluid object-cover w-100 rounded-3"
+            alt="person" loading="lazy">
+        </div>
+        <h5 class="mt-5 pt-4 mb-4 text-white fw-500">Personal Details</h5>
+        <ul class="list-inline p-0 m-0">
+          <li class="mb-3">
+            <h5 class="mt-0 mb-2">Born:</h5>
+            <ul class="person-birth-detail d-flex align-items-center flex-wrap column-gap-5 row-gap-1 p-0 m-0">
+              <li class="list-group-item">Birthday: 1985-03-22 </li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-md-9 mt-5 mt-md-0">
+        <h4 class="mb-3">Charles Melton</h4>
+        <ul class="person-category d-flex flex-wrap align-items-center gap-5 ps-0">
+          <li class="list-group-item"><a href="javascript:void(0);">Actor</a></li>
+        </ul>
+
+        <p>Charles Melton is a tall and charismatic individual with striking blue eyes and a well-groomed beard. He is
+          often seen sporting a stylish haircut and has a distinctive fashion sense, favoring classic suits on the red
+          carpet. He has starred in a range of films, from action-packed blockbusters to heartwarming romantic comedies,
+          and is known for producing high-quality, commercially successful films..
+        </p>
+        <div class="actor-history">
+          <div class="">
+            <h4 class="">Person History</h4>
+          </div>
+        </div>
+        {{!-- tab start --}}
+        <div class="content-details trending-info personal-detail">
+          <ul class="nav nav-underline d-flex nav nav-pills align-items-center text-center my-5" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active show fw-bold" data-bs-toggle="pill" href="#all" role="tab" aria-selected="true">
+                All
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" data-bs-toggle="pill" href="#movies" role="tab" aria-selected="false">
+                Movie
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" data-bs-toggle="pill" href="#tvshows" role="tab" aria-selected="false">
+                TV Show
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content personal-detail-tab-content">
+            <div id="all" class="tab-pane animated fadeInUp active show" role="tabpanel">
+              <div class="description-content">
+                <div class="row gy-5">
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/the-first-of-us-portrait.webp"
+                    product-title="the first of us" product-link="view-all-movie.html" product-year="2025"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/gameofhero-portrait.webp"
+                    product-title="game of hero" product-link="view-all-movie.html" product-year="2014"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/venom-portrait.webp"
+                    product-title="venom" product-link="view-all-movie.html" product-year="2022"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/rabbit-portrait.webp"
+                    product-title="rabbit" product-link="view-all-movie.html" product-year="2020"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/migration-portrait.webp"
+                    product-title="migration" product-link="view-all-movie.html" product-year="2011"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/krishna-portrait.webp"
+                    product-title="krishna" product-link="view-all-movie.html" product-year="2024"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/kali-portrait.webp"
+                    product-title="kali" product-link="view-all-movie.html" product-year="2017"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/joker-portrait.webp"
+                    product-title="joker" product-link="view-all-movie.html" product-year="2022"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/deadpool-portrait.webp"
+                    product-title="deadpool" product-link="view-all-movie.html" product-year="2025"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/any-name-portrait.webp"
+                    product-title="any name" product-link="view-all-movie.html" product-year="2015"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/batter-caill-portrait.webp"
+                    product-title="batter caill saul" product-link="view-all-movie.html" product-year="2010"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/jumanji-portrait.webp"
+                    product-title="jumanji" product-link="view-all-movie.html" product-year="2018"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/yoshi-portrait.webp"
+                    product-title="yoshi" product-link="view-all-movie.html" product-year="2020"}}
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div id="movies" class="tab-pane animated fadeInUp" role="tabpanel">
+              <div class="description-content">
+                <div class="row gy-5">
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/gameofhero-portrait.webp"
+                    product-title="game of hero" product-link="view-all-movie.html" product-year="2014"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/venom-portrait.webp"
+                    product-title="venom" product-link="view-all-movie.html" product-year="2022"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/rabbit-portrait.webp"
+                    product-title="rabbit" product-link="view-all-movie.html" product-year="2020"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/migration-portrait.webp"
+                    product-title="migration" product-link="view-all-movie.html" product-year="2011"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/krishna-portrait.webp"
+                    product-title="krishna" product-link="view-all-movie.html" product-year="2024"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/kali-portrait.webp"
+                    product-title="kali" product-link="view-all-movie.html" product-year="2017"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/joker-portrait.webp"
+                    product-title="joker" product-link="view-all-movie.html" product-year="2022"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/deadpool-portrait.webp"
+                    product-title="deadpool" product-link="view-all-movie.html" product-year="2025"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/any-name-portrait.webp"
+                    product-title="any name" product-link="view-all-movie.html" product-year="2015"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/batter-caill-portrait.webp"
+                    product-title="batter caill saul" product-link="view-all-movie.html" product-year="2010"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/jumanji-portrait.webp"
+                    product-title="jumanji" product-link="view-all-movie.html" product-year="2018"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/yoshi-portrait.webp"
+                    product-title="yoshi" product-link="view-all-movie.html" product-year="2020"}}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tvshows" class="tab-pane animated fadeInUp" role="tabpanel">
+              <div class="source-list-content ">
+                <div class="row gy-5">
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/titanic-portrait.webp"
+                    product-title="tittanc" product-link="view-all-movie.html" product-year="2000"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/reed-dog-portrait.webp"
+                    product-title="reed dog" product-link="view-all-movie.html" product-year="2010"}}
+                  </div>
+
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/the-hunter-portrait.webp"
+                    product-title="The Hunter" product-link="view-all-movie.html" product-year="2012"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/minions-2.webp"
+                    product-title="minions" product-link="view-all-movie.html" product-year="2024"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/charlie-chaplin-portrait.webp"
+                    product-title="charlie chaplin" product-link="view-all-movie.html" product-year="2019"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/pirates-ofdayones-orignal.webp"
+                    product-title="pirates ofdayones orignal" product-link="view-all-movie.html" product-year="2025"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/dinoosaur-portrait.webp"
+                    product-title="dinoosaur" product-link="view-all-movie.html" product-year="2018"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/rabbit-portrait.webp"
+                    product-title="rabbit" product-link="view-all-movie.html" product-year="2010"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/hanuman1.webp"
+                    product-title="hanuman" product-link="view-all-movie.html" product-year="2011"}}
+                  </div>
+
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/castle-rock-portrait.webp"
+                    product-title="castle rock" product-link="view-all-movie.html" product-year="2022"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/batter-caill-portrait.webp"
+                    product-title="Better caill saul" product-link="view-all-movie.html" product-year="2015"}}
+                  </div>
+                  <div class="col-xl-4 col-sm-6">
+                    {{> components/widgets/person-detail-card product-img="assets/images/media/Adventure-2.webp"
+                    product-title="Adventure" product-link="view-all-movie.html" product-year="2020"}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{!-- tab end --}}
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- Mobile Footer --}}
+{{> components/widgets/mobile-footer}}
+{{/content}}
+{{/extend}}

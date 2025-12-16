@@ -1,0 +1,478 @@
+<header class="header-center-home header-merchandise">
+    <div class="header-top d-xl-block d-none">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="d-flex align-items-center gap-2 gap-md-3">
+                        <!--Logo -->
+                        {{> components/widgets/logo}}
+                        <div>
+                            <a href="{{path}}pricing-plan.html"
+                                class="subscribe-btn btn btn-warning-subtle py-1 py-md-2 px-2 px-ms-3">
+                                <span class="d-flex align-items-center gap-2 text-warning">
+                                    <i class="ph-fill ph-crown align-middle fs-6"></i>
+                                    <span>Subscribe</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <ul class="d-flex align-items-center justify-content-end gap-3 list-inline mb-0">
+                        <li>
+                            <div class="search-box-2">
+                                <form>
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <button type="submit" class="search-btn d-flex align-items-center">
+                                        <i class="ph ph-magnifying-glass"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#offcanvasCart" class="text-white" data-bs-toggle="offcanvas">
+                                <span class="btn-icon rounded-pill user-icons">
+                                    <i class="ph ph-handbag fs-5"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="dropdown" id="itemdropdown1">
+                            <a class="text-white d-flex align-items-center" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="btn-icon rounded-pill user-icons">
+                                    <span class="btn-inner d-flex align-items-center justify-content-center">
+                                        <i class="ph ph-user-plus fs-5"></i>
+                                    </span>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
+                                aria-labelledby="navbarDropdown">
+                                <li class="user-info mb-3">
+                                    <a href="{{path}}profile-marvin.html" class="d-flex align-items-center gap-3">
+                                    <img src="{{path}}assets/images/user/user6.jpg" class="img-fluid" alt="img"
+                                        loading="lazy">
+                                    <span class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{path}}shop/my-account.html" class="iq-sub-card d-flex align-items-center gap-3">
+                                        <i class="ph ph-user fw-bold"></i>
+                                        <h6 class="mb-0 font-size-14 fw-normal">My Account</h6>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{path}}watchlist-detail.html" class="iq-sub-card d-flex align-items-center gap-3">
+                                        <i class="ph ph-plus fw-bold"></i>
+                                        <h6 class="mb-0 font-size-14 fw-normal">Watchlist</h6>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{path}}pricing-plan.html"
+                                        class="iq-sub-card d-flex align-items-center gap-3">
+                                        <i class="ph ph-star fw-bold"></i>
+                                        <h6 class="mb-0 font-size-14 fw-normal">Subscription</h6>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{path}}login.html"
+                                        class="iq-sub-card iq-logout-2 mt-1 d-flex justify-content-center gap-2">
+                                        <i class="ph ph-sign-out fw-bold fs-5"></i>
+                                        <h6 class="mb-0 font-size-14 fw-normal">Logout</h6>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom header-sticky">
+        <nav class="nav navbar navbar-expand-xl navbar-light iq-navbar header-hover-menu py-xl-0 py-3">
+            <div class="container-fluid navbar-inner">
+                <div class="d-flex align-items-center justify-content-between w-100 landing-header">
+                    <div class="d-xl-none d-flex gap-3 gap-xl-0 align-items-center">
+                        <div>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar_main"
+                                aria-controls="navbar_main"
+                                class="d-xl-none bg-primary rounded-pill p-1 toggle-rounded-btn d-flex align-items-center">
+                                <i class="ph ph-arrow-right fs-5 fw-bold"></i>
+                            </button>
+                        </div>
+                        <!--Logo -->
+                        <div class="d-flex align-items-center gap-2 gap-md-3">
+                            <!--Logo -->
+                            {{> components/widgets/logo}}
+                            <div>
+                                <a href="{{path}}pricing-plan.html"
+                                    class="subscribe-btn btn btn-warning-subtle py-1 py-md-2 px-2 px-ms-3">
+                                    <span class="d-flex align-items-center gap-2 text-warning">
+                                        <i class="ph-fill ph-crown align-middle fs-6"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {{#compare ismegamenu '==' 'true'}}
+                    {{>components/partials/header/mega-menu }}
+                    {{else}}
+                    {{>components/partials/header/horizontal-nav}}
+                    {{/compare}}
+                    <div class="right-panel">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-btn">
+                                <span class="navbar-toggler-icon"></span>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse p-3" id="navbarSupportedContent">
+                            <div class="iq-meta-menu-container d-xl-block d-none">
+                                <ul class="d-flex align-items-center m-0 list-inline iq-meta-menu">
+                                    <li>
+                                        <a href="{{path}}shop/my-account.html">My Account</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://iqonic.desky.support/">Customer Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{path}}contact-us.html">Help?</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-xl-none">
+                                <ul class="d-flex align-items-center justify-content-end gap-3 list-inline mb-0">
+                                    <li>
+                                        <div class="search-box-2">
+                                            <form>
+                                                <input type="text" class="form-control" placeholder="Search...">
+                                                <button type="submit" class="search-btn d-flex align-items-center">
+                                                    <i class="ph ph-magnifying-glass"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#offcanvasCart" class="text-white" data-bs-toggle="offcanvas">
+                                            <span class="btn-icon rounded-pill user-icons">
+                                                <i class="ph ph-handbag fs-5"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown" id="itemdropdown2">
+                                        <a class="text-white d-flex align-items-center" href="#" id="navbarDropdown2"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="btn-icon rounded-pill user-icons">
+                                                <span class="btn-inner d-flex">
+                                                    <i class="ph ph-user-plus fs-5"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
+                                            aria-labelledby="navbarDropdown2">
+                                            <a class="user-info d-flex align-items-center gap-3 mb-3" href="{{path}}profile-marvin.html">
+                                                <img src="{{path}}assets/images/user/user6.jpg" class="img-fluid"
+                                                    alt="img" loading="lazy">
+                                                <span
+                                                    class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
+                                            </a>
+                                            <a href="{{path}}shop/my-account.html"
+                                                class="iq-sub-card d-flex align-items-center gap-3">
+                                                <i class="ph ph-user fw-bold"></i>
+                                                <h6 class="mb-0 font-size-14 fw-normal">My Account</h6>
+                                            </a>
+                                            <a href="{{path}}view-all-movie.html"
+                                                class="iq-sub-card d-flex align-items-center gap-3">
+                                                <i class="ph ph-plus fw-bold"></i>
+                                                <h6 class="mb-0 font-size-14 fw-normal">Watchlist</h6>
+                                            </a>
+                                            <a href="{{path}}pricing-plan.html"
+                                                class="iq-sub-card d-flex align-items-center gap-3">
+                                                <i class="ph ph-star fw-bold"></i>
+                                                <h6 class="mb-0 font-size-14 fw-normal">Subscription</h6>
+                                            </a>
+                                            <a href="#"
+                                                class="iq-sub-card iq-logout-2 mt-1 d-flex justify-content-center gap-2">
+                                                <i class="ph ph-sign-out"></i>
+                                                <h6 class="mb-0 font-size-14 fw-normal">Logout</h6>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- ==================
+Cart Sidebar
+========================= -->
+<div class="offcanvas overflow-y-auto widget-shopping-cart-content offcanvas-end offcanvas-sidebar sidebar-container on-rtl end border-0"
+    tabindex="-1" id="offcanvasCart">
+    {{!-- <div class="offcanvas-header py-4">
+        <h5 class="offcanvas-title">Shopping Cart (3)</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body py-5">
+        <div class="sidebar-cart-content d-flex flex-column justify-content-between">
+            <div class="cart-items-container">
+                <ul class="cart-items-list m-0 list-inline">
+                    <li class="cart-item mb-4 pb-4 border-bottom">
+                        <div class="cart-item-block d-flex gap-3">
+                            <div class="image flex-shrink-0">
+                                <img src="{{path}}assets/images/shop/product/02.webp" width="90" alt="product-image"
+                                    class="img-fluid object-cover">
+                            </div>
+                            <div class="cart-block-content position-relative flex-grow-1 pe-5">
+                                <h6 class="mb-36 text-capitalize">Believe Mask</h6>
+                                <span class="text-primary small">$13.00</span>
+                                <div class="mt-3">
+                                    <div class="btn-group iq-qty-btn custom-qty-btn rounded-3" data-qty="btn"
+                                        role="group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-light iq-quantity-minus text-white border-0">
+                                            <i class="ph ph-minus"></i>
+                                        </button>
+                                        <input type="text" class="btn btn-sm btn-outline-light input-display border-0"
+                                            data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2"
+                                            value="2" title="Qty">
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-light iq-quantity-plus text-white border-0">
+                                            <i class="ph ph-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="position-absolute top-0 end-0">
+                                    <a href="javascript:void();"
+                                        class="text-white delete-btn text-capitalize">delete</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cart-item mb-4 pb-4 border-bottom">
+                        <div class="cart-item-block d-flex gap-3">
+                            <div class="image flex-shrink-0">
+                                <img src="{{path}}assets/images/shop/product/04.webp" width="90" alt="product-image"
+                                    class="img-fluid object-cover">
+                            </div>
+                            <div class="cart-block-content position-relative flex-grow-1 pe-5">
+                                <h6 class="mb-36 text-capitalize">Black Cap</h6>
+                                <span class="text-primary small">$18.00</span>
+                                <div class="mt-3">
+                                    <div class="btn-group iq-qty-btn custom-qty-btn rounded-3" data-qty="btn"
+                                        role="group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-light iq-quantity-minus text-white border-0">
+                                            <i class="ph ph-minus"></i>
+                                        </button>
+                                        <input type="text" class="btn btn-sm btn-outline-light input-display border-0"
+                                            data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2"
+                                            value="2" title="Qty">
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-light iq-quantity-plus text-white border-0">
+                                            <i class="ph ph-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="position-absolute top-0 end-0">
+                                    <a href="javascript:void();"
+                                        class="text-white delete-btn text-capitalize">delete</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cart-item">
+                        <div class="cart-item-block d-flex gap-3">
+                            <div class="image flex-shrink-0">
+                                <img src="{{path}}assets/images/shop/product/05.webp" width="90" alt="product-image"
+                                    class="img-fluid object-cover">
+                            </div>
+                            <div class="cart-block-content position-relative flex-grow-1 pe-5">
+                                <h6 class="mb-36 text-capitalize">Boxing Gloves</h6>
+                                <span class="text-primary small">$18.00</span>
+                                <div class="mt-3">
+                                    <div class="btn-group iq-qty-btn custom-qty-btn rounded-3" data-qty="btn"
+                                        role="group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-light iq-quantity-minus text-white border-0">
+                                            <i class="ph ph-minus"></i>
+                                        </button>
+                                        <input type="text" class="btn btn-sm btn-outline-light input-display border-0"
+                                            data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2"
+                                            value="2" title="Qty">
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-light iq-quantity-plus text-white border-0">
+                                            <i class="ph ph-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="position-absolute top-0 end-0">
+                                    <a href="javascript:void();"
+                                        class="text-white delete-btn text-capitalize">delete</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart-progress-container mt-5 pt-5 border-top">
+                <div class="d-flex align-items-center justify-content-between gap-3 flex-wrap">
+                    <h5 class="m-0 fw-bold">Subtotal</h5>
+                    <h5 class="m-0 fw-bold">$49.00</h5>
+                </div>
+                <div class="d-grid gap-3 mt-4">
+                    <a href="{{path}}shop/checkout.html"
+                        class="btn bg-primary text-uppercase fw-medium w-100 text-white">
+                        <span class="button-text small">checkout</span>
+                    </a>
+
+                    <a href="{{path}}shop/cart.html" class="btn bg-light text-uppercase fw-medium w-100 text-dark">
+                        <span class="button-text small">view cart</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> --}}
+
+    <div class="offcanvas-header position-relative">
+        <h5 class="offcanvas-title fw-500" id="offcanvasExampleLabel">
+            Shopping Cart ( <span class="streamit-cart-count" aria-live="polite">1</span> )
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="product-list-content">
+            <ul class="list-unstyled mb-0">
+                <li class="mini-cart-item d-flex align-items-start gap-3">
+                    <div class="cart-img">
+                        <a href="{{path}}shop/cart.html" aria-label="Believe Mask">
+                            <img src="{{path}}assets/images/shop/product/02.webp" class="img-fluid object-cover"
+                                width="90" alt="product-image">
+                        </a>
+                    </div>
+                    <div class="cart-content flex-grow-1 position-relative pe-5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a class="d-block" href="{{path}}shop/product-detail.html" aria-label="Believe Mask">
+                                <h6 class="mb-36 text-capitalize fw-500">Believe Mask</h6>
+                            </a>
+                            <a href="javascript:void(0)" class="delete-btn text-white text-capitalize">
+                                <i class="ph ph-trash text-primary"></i>
+                            </a>
+                        </div>
+                        <div class="product-price text-primary small">
+                            $13.00
+                        </div>
+                        <div class="btn-group iq-qty-btn custom-qty-btn rounded-3 mt-3" data-qty="btn" role="group">
+                            <button type="button"
+                                class="btn btn-sm btn-outline-light iq-quantity-minus text-white border-0">
+                                <i class="ph ph-minus"></i>
+                            </button>
+                            <input type="text" class="btn btn-sm btn-outline-light input-display border-0"
+                                data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2"
+                                title="Qty">
+                            <button type="button"
+                                class="btn btn-sm btn-outline-light iq-quantity-plus text-white border-0">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="mini-cart-item d-flex align-items-start gap-3">
+                    <div class="cart-img">
+                        <a href="{{path}}shop/cart.html" aria-label="Black Cap">
+                            <img src="{{path}}assets/images/shop/product/04.webp" class="img-fluid object-cover"
+                                width="90" alt="product-image">
+                        </a>
+                    </div>
+                    <div class="cart-content flex-grow-1 position-relative pe-5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a class="d-block" href="{{path}}shop/product-detail.html" aria-label="Black Cap">
+                                <h6 class="mb-36 text-capitalize fw-500">Black Cap</h6>
+                            </a>
+                            <a href="javascript:void(0)" class="delete-btn text-white text-capitalize">
+                                <i class="ph ph-trash text-primary"></i>
+                            </a>
+                        </div>
+                        <div class="product-price text-primary small">
+                            $18.00
+                        </div>
+                        <div class="btn-group iq-qty-btn custom-qty-btn rounded-3 mt-3" data-qty="btn" role="group">
+                            <button type="button"
+                                class="btn btn-sm btn-outline-light iq-quantity-minus text-white border-0">
+                                <i class="ph ph-minus"></i>
+                            </button>
+                            <input type="text" class="btn btn-sm btn-outline-light input-display border-0"
+                                data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2"
+                                title="Qty">
+                            <button type="button"
+                                class="btn btn-sm btn-outline-light iq-quantity-plus text-white border-0">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="mini-cart-item d-flex align-items-start gap-3">
+                    <div class="cart-img">
+                        <a href="{{path}}shop/cart.html" aria-label="Boxing Gloves">
+                            <img src="{{path}}assets/images/shop/product/05.webp" class="img-fluid object-cover"
+                                width="90" alt="product-image">
+                        </a>
+                    </div>
+                    <div class="cart-content flex-grow-1 position-relative pe-5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a class="d-block" href="{{path}}shop/product-detail.html" aria-label="Boxing Gloves">
+                                <h6 class="mb-36 text-capitalize fw-500">Boxing Gloves</h6>
+                            </a>
+                            <a href="javascript:void(0)" class="delete-btn text-white text-capitalize">
+                                <i class="ph ph-trash text-primary"></i>
+                            </a>
+                        </div>
+                        <div class="product-price text-primary small">
+                            $18.00
+                        </div>
+                        <div class="btn-group iq-qty-btn custom-qty-btn rounded-3 mt-3" data-qty="btn" role="group">
+                            <button type="button"
+                                class="btn btn-sm btn-outline-light iq-quantity-minus text-white border-0">
+                                <i class="ph ph-minus"></i>
+                            </button>
+                            <input type="text" class="btn btn-sm btn-outline-light input-display border-0"
+                                data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2"
+                                title="Qty">
+                            <button type="button"
+                                class="btn btn-sm btn-outline-light iq-quantity-plus text-white border-0">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="offcanvas-footer border-top py-3 px-3">
+        <div class="d-flex align-items-center justify-content-between gap-3">
+            <strong>Subtotal:</strong>
+            <span class="st-woocommerce-Price-amount amount"><span class="woocommerce-Price-amount amount"><span
+                        class="woocommerce-Price-currencySymbol">₹</span>49.00</span></span>
+        </div>
+        <div class="mini-cart-buttons d-flex flex-column align-items-center gap-3 mt-4">
+            <div class="iq-button w-100">
+                <a href="{{path}}shop/checkout.html" class="btn btn-primary text-capitalize w-100 rounded-3">
+                    <span class="button-text">Checkout</span>
+                </a>
+            </div>
+            <div class="w-100">
+                <a href="{{path}}shop/cart.html" class="btn btn-secondary text-capitalize w-100 rounded-3">
+                    <span class="button-text">View
+                        Cart</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

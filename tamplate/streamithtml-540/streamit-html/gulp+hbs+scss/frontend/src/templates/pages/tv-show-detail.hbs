@@ -1,0 +1,405 @@
+{{#extend layout title="Tv Show Details" active="tv-show-details" isHeader="true" isFooter="true" path="./"
+isSwiperSlider="true" bodyClass="custom-header-relative" isVideoJs="true" isSelect2="true" isSweetalert="true"}}
+{{#content "content"}}
+
+<!-- Banner Start -->
+
+<div class="poition-relative">
+    <div class="iq-main-slider site-video position-relative">
+        <video id="my-video" poster="{{path}}assets/images/player/player-poster.webp"
+            class="my-video video-js vjs-big-play-centered w-100" loop autoplay muted preload="auto" data-setup='{
+                  "techOrder": ["youtube"],
+                  "sources": [{
+                      "type": "video/youtube",
+                      "src": " https://i.ytimg.com/vi_webp/rKVEoyTedv4/maxresdefault.webp"
+                  }],
+                  "youtube": {         
+                      "modestbranding": 1,
+                      "rel": 0,
+                      "showinfo": 0,
+                      "autoplay": 1
+                  },
+                  "fullscreen": true
+              }'>
+        </video>
+    </div>
+
+
+    {{!-- Detail part Start --}}
+    <div class="movie-detail-part position-relative">
+        <div class="trending-info  pt-0 pb-0">
+            <div class="details-parts">
+                {{> components/widgets/movie-description moveName="VIKINGS" isNotTVShowbadge="true"
+                movieReleased="2025" movieViews="141 views" videoUrl="episode.html"
+                imdbRating="5" movieDuration="1hr : 10m"
+                movieLanguage="true" movie-lang="english (UK)" isNotPlaylistbtn="true"
+                isNotdownloadbtn="true"
+                }}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{{!-- Banner End --}}
+
+
+<div class="container-fluid">
+    <div class="overflow-hidden">
+        <!-- Episode Start -->
+        <div class="show-episode section-padding-top">
+            <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+                <h5 class="main-title text-capitalize mb-0 fw-medium">Episodes</h5>
+            </div>
+            <ul class="nav nav-pills custom-tab-slider episode-nav-btn gap-3 mb-4 pb-2" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active show" data-bs-toggle="pill" href="#season-1" role="tab"
+                        aria-selected="true">
+                        Season 1
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#season-2" role="tab" aria-selected="false">
+                        Season 2
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="season-1" class="tab-pane animated fadeInUp active show" role="tabpanel">
+                    <div class="card-style-slider">
+                        <div class="position-relative swiper swiper-card overflow-hidden" data-slide="5"
+                            data-laptop="5" data-tab="2" data-mobile="2" data-mobile-sm="1" data-autoplay="false"
+                            data-loop="false">
+                            <div class="p-0 swiper-wrapper m-0 list-inline">
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s1e1-the-buddha.webp" id="04" episodDate="October 22, 2020"
+                                    episodTime="41m" episodTitle="01: The Buddha" episode-title="true"
+                                    episode-titles="true" episode-titles-text="E01: The Buddha" episode-detail="true"
+                                    episode-detail-text="As the chemistry teacher alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s1e2-king-of-kings.webp" id="04" episodDate="October 22, 2020"
+                                    episodTime="30m" episodTitle="02: King of King" episode-title="true"
+                                    episode-titles="true" episode-titles-text="E02: King of King" episode-detail="true"
+                                    episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                 <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s1e3-All-Change.webp" id="03" episodDate="October 15, 2020"
+                                    episodTime="36m" episodTitle="03: All Change" episode-title="true"
+                                    episode-titles="true" episode-titles-text="03: All Change"
+                                    episode-detail="true" episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                 <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s1e4-the-signal.webp" id="02" episodDate="October 8, 2020"
+                                    episodTime="45m" episodTitle="04: The Signal" episode-title="true"
+                                    episode-titles="true" episode-titles-text="04: The Signal"
+                                    episode-detail="true" episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s1e5-Lost-Souls.webp" id="01" episodDate="October 1, 2020"
+                                    episodTime="30m" episodTitle="05: Lost Souls" episode-title="true"
+                                    episode-titles="true" episode-titles-text="05: Lost Souls" episode-detail="true"
+                                    episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="season-2" class="tab-pane animated fadeInUp" role="tabpanel">
+                    <div class="card-style-slider">
+                        <div class="position-relative swiper swiper-card overflow-hidden" data-slide="5"
+                            data-laptop="5" data-tab="2" data-mobile="2" data-mobile-sm="1" data-autoplay="false"
+                            data-loop="false">
+                            <div class="p-0 swiper-wrapper m-0  list-inline">
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s2e2-its-only-magic.webp" id="04" showEpisod="S01E04" episodDate="October 22, 2020"
+                                    episodTime="41m" episodTitle="01: It's Only Magic" episode-title="true"
+                                    episode-titles="true" episode-titles-text="E02: It's Only Magic" episode-detail="true"
+                                    episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s2e3-the-raft-of-the-medusa.webp" id="02" showEpisod="S01E02" episodDate="October 8, 2020"
+                                    episodTime="35m" episodTitle="02: The Raft of the Medusa" episode-title="true"
+                                    episode-titles="true" episode-titles-text="03: The Raft of the Medusa"
+                                    episode-detail="true" episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s2e4-the-final-straw.webp" id="01" showEpisod="S01E01" episodDate="October 1, 2020"
+                                    episodTime="45m" episodTitle="03: The Final Straw" episode-title="true"
+                                    episode-titles="true" episode-titles-text="04: The Final Straw" episode-detail="true"
+                                    episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Episode End -->
+
+        {{!-- Recommended Start --}}
+        <div class="recommended-block">
+            <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+                <h4 class="main-title text-capitalize mb-0">Recommended</h4>
+            </div>
+            <div class="card-style-slider">
+                <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
+                    data-mobile="2" data-mobile-sm="2" data-autoplay="false" data-loop="false"
+                    data-navigation="true" data-pagination="true">
+                    <ul class="p-0 swiper-wrapper m-0  list-inline">
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style
+                            card-image="media/midnightHunter-portrait.webp"
+                            card-title="Midnight Hunter"
+                            movie-time="1hr : 30m" card-lang="English (Canada)" card-path="tv-show-detail.html"
+                            card-path="tv-show-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/card-style
+                            card-image="media/kung-fu-panda-portrait.webp"
+                            card-title="Masters Of Kung Fu: The Panda Legend" prodct-primium="true"
+                            isnotlangCard="true"
+                            card-path="tv-show-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/card-style card-image="media/hanuman-portrait.webp"
+                            card-title="The
+                            Epic Journey Of Hanuman" isnotlangCard="true"
+                            card-path="tv-show-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/krishna-portrait.webp"
+                            card-title="Vasudeva: The Eternal Journey"
+                            movie-time="2hr : 30m" card-lang="English (UK)" card-path="tv-show-detail.html"
+                            card-path="tv-show-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/minions-portrait.webp"
+                            card-title="Minions"
+                            movie-time="2hr :
+                            12m" card-lang="English (New Zealand)" card-path="tv-show-detail.html"
+                            card-path="tv-show-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/breaking-bad-portrait.webp"
+                            card-title="Breaking Bad"
+                            movie-time="2hr : 25m" isnotlangCard="true" }}
+                        </li>
+                    </ul>
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+        {{!-- Recommended End --}}
+
+        {{!-- Starring start --}}
+        <div class="favourite-person-block">
+            <div class="overflow-hidden">
+                <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+                <h4 class="main-title text-capitalize mb-0">Starring</h4>
+                </div>
+                <div class="position-relative swiper swiper-card" data-slide="11" data-laptop="11" data-tab="4" data-mobile="2"
+                data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true" data-pagination="true">
+                <ul class="p-0 swiper-wrapper m-0  list-inline personality-card">
+                        <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="olivia-foster.webp" cast-title="Olivia Foster"
+                        cast-category="actress" cast-path="person-detail.html"}}
+                    </li>               
+                    <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="leena-burton.webp" cast-title="Leena Burton"
+                        cast-category="actress" cast-path="person-detail.html"}}
+                    </li>
+                    <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="ryan-pierce.webp" cast-title="Ryan Pierce"
+                        cast-category="actor" cast-path="person-detail.html"}}
+                    </li>
+                    <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="michael-fox.webp" cast-title="Michael Fox"
+                        cast-category="producer" cast-path="person-detail.html"}}
+                    </li>
+                    <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="ruby-scott.webp" cast-title="Ruby Scott"
+                        cast-category="director" cast-path="person-detail.html"}}
+                    </li>
+                    <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="maxwell-carter.webp" cast-title="Maxwell Carter"
+                        cast-category="actress" cast-path="person-detail.html"}}
+                    </li>
+                    <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="mark-smith.webp" cast-title="Mark Smith"
+                        cast-category="producer" cast-path="person-detail.html"}}
+                    </li>
+                        <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="ava-monroe.webp" cast-title="Ava Monroe"
+                        cast-category="actress" cast-path="person-detail.html"}}
+                    </li>
+                    <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="jack-nicholson.webp" cast-title="Jack Nicholson"
+                        cast-category="actor" cast-path="person-detail.html"}}
+                    </li>
+                    <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="charles-melton.webp" cast-title="Charles Melton"
+                        cast-category="actor" cast-path="person-detail.html"}}
+                    </li>
+                        <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="jeff-bridges.webp" cast-title="Jeff Bridges"
+                        cast-category="actress" cast-path="person-detail.html"}}
+                    </li>
+                    <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="james-stewart.webp" cast-title="James Stewart"
+                        cast-category="actor" cast-path="person-detail.html"}}
+                    </li>
+                    <li class="swiper-slide">
+                        {{>components/widgets/personality-card cast-image="jordan-grant.webp" cast-title="Jordan Grant"
+                        cast-category="actress" cast-path="person-detail.html"}}
+                    </li>
+                </ul>
+                <div class="swiper-button swiper-button-next d-none d-lg-block"></div>
+                <div class="swiper-button swiper-button-prev d-none d-lg-block"></div>
+                </div>
+            </div>
+        </div>
+        {{!-- Starring End --}}
+
+        {{!-- Crew start --}}
+        <div class="favourite-person-block">
+            <div class="overflow-hidden">
+                <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+                <h4 class="main-title text-capitalize mb-0">Crew</h4>
+                </div>
+                <div class="position-relative swiper swiper-card" data-slide="11" data-laptop="11" data-tab="4" data-mobile="2"
+                data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true" data-pagination="true">
+                <ul class="p-0 swiper-wrapper m-0  list-inline personality-card">
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="maria-rodriguez.webp" cast-title="Maria Rodriguez"
+                    cast-category="director"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="oliver-turner.webp" cast-title="Oliver Turner"
+                    cast-category="director"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="john-abraham.webp" cast-title="John Abraham"
+                    cast-category="director"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="benjamin-hayes.webp" cast-title="Benjamin Hayes"
+                    cast-category="director" other-cast-category="Producer"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="ethan-crawford.webp" cast-title="Ethan Crawford"
+                    cast-category="producer"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="mark-wilson.webp" cast-title="mark wilson"
+                    cast-category="director"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="jack-walker.webp" cast-title="Jack Walker"
+                    cast-category="director"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="angel-louis.webp" cast-title="angel louis"
+                    cast-category="producer"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="millar-joseph.webp" cast-title="Millar joseph"
+                    cast-category="producer"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="kelly-reilly.webp" cast-title="Kelly Reilly"
+                    cast-category="director"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="smith-jonas.webp" cast-title="smith Jonas"
+                    cast-category="director"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="davina-decorous.webp" cast-title="Davina decorous"
+                    cast-category="producer"}}
+                    </li>
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="thomas-bailey.webp" cast-title="Thomas bailey"
+                    cast-category="producer"}}
+                    </li>           
+                    <li class="swiper-slide">
+                    {{>components/widgets/personality-card cast-image="leena-burton.webp" cast-title="Leena burton"
+                    cast-category="producer"}}
+                    </li>
+                </ul>
+                <div class="swiper-button swiper-button-next d-none d-lg-block"></div>
+                <div class="swiper-button swiper-button-prev d-none d-lg-block"></div>
+                </div>
+            </div>
+        </div>
+        {{!-- Crew End --}}
+
+        <!-- Upcoming Start -->
+        <div class="upcomimg-block">
+            <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+                <h4 class="main-title text-capitalize mb-0">Upcoming</h4>
+            </div>
+            <div class="card-style-slider">
+                <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
+                    data-mobile="2" data-mobile-sm="2" data-autoplay="false" data-loop="false"
+                    data-navigation="true" data-pagination="true">
+                    <ul class="p-0 swiper-wrapper m-0  list-inline">
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/migration-portrait.webp"
+                            card-title="Beyond Borders" card-lang="English" prodct-primium="true"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/titanic-portrait.webp"
+                            card-title="Titanic: Lost & Found" card-lang="English" prodct-primium="true"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/the-crew-portrait.webp"
+                            card-title="The Real Crew" card-lang="English" prodct-primium="true"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style
+                            card-image="media/pirates-ofdayones-orignal.webp" card-title="Pirates Of
+                            Day
+                            One"
+                            card-lang="English"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style
+                            card-image="media/castle-rock-portrait.webp" card-title="Castle Rock"
+                            card-lang="English" prodct-primium="true"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style
+                            card-image="media/vikings-portrait.webp" card-title="Vikings"
+                            card-lang="English"}}
+                        </li>
+                    </ul>
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Upcoming End -->
+
+        <div class="section-padding-bottom">
+            {{> components/widgets/details-review }}
+        </div>
+    </div>
+</div>
+{{!-- Mobile Footer --}}
+{{> components/widgets/mobile-footer}}
+
+{{!-- Modal --}}
+{{>components/widgets/details-description-modal movie-name="Vikings" year="2025" views="141 views"
+rating-count="5"}}
+{{/content}}
+{{/extend}}

@@ -1,0 +1,154 @@
+{{#extend layout title="Watchlist" active="watchlist-details" isHeader="true" isFooter="true" path="./"
+isFslightbox="true"
+bodyClass="custom-header-relative" isSweetalert="true" isBreadcrumb="true"}}
+{{#content "content"}}
+
+<section class="section-padding">
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <div class="border-bottom mb-5 watchlist-tab">
+                <div id="item-nav">
+                    <div class="item-list-tabs no-ajax css_prefix-tab-lists" id="object-nav">
+                        <!-- Watchlist Tabs -->
+                        <ul class="nav nav-underline data-search-tab" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-movie-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-movie" type="button" role="tab" aria-controls="pills-movie"
+                                    aria-selected="true">
+                                    Movie </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link " id="pills-video-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-video" type="button" role="tab" aria-controls="pills-video"
+                                    aria-selected="false" tabindex="-1">
+                                    Video </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link " id="pills-tvshow-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-tvshow" type="button" role="tab" aria-controls="pills-tvshow"
+                                    aria-selected="false" tabindex="-1">
+                                    Tvshow </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link " id="pills-episode-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-episode" type="button" role="tab"
+                                    aria-controls="pills-episode" aria-selected="false" tabindex="-1">
+                                    Episode </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Playlist Tab Content -->
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade active show" id="pills-movie" role="tabpanel" tabindex="0"
+                    aria-labelledby="pills-movie-tab">
+                    <div
+                        class="row gy-4 row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 data-listing">
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card card-image="media/gameofhero.webp"
+                            movie-name="Game of Heros" card-path="movie-detail.html" }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card card-image="media/rabbit.webp"
+                            movie-name="Rabbit" card-path="movie-detail.html"
+                            }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card card-image="media/migration.webp"
+                            movie-name="Migration" card-path="tv-show-detail.html" }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card card-image="media/krishna.webp"
+                            movie-name="Krishna" card-path="movie-detail.html" }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card card-image="media/jumanjj.webp"
+                            movie-name="Jumanji" card-path="tv-show-detail.html" }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card card-image="media/yoshi.webp"
+                            movie-name="YoShi" card-path="movie-detail.html" }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card
+                            card-image="media/kung-fu-panda.webp"
+                            movie-name="Kung Fu Panda" card-path="video-detail.html" }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card
+                            card-image="media/the-hunter.webp"
+                            movie-name="The Hunter" card-path="movie-detail.html" }}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-video" role="tabpanel" tabindex="0"
+                    aria-labelledby="pills-video-tab">
+                    <div
+                        class="row gy-4 row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 data-listing">
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card card-image="media/toddler.webp"
+                            movie-name="Toddler" card-path="video-detail.html"
+                            }}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-tvshow" role="tabpanel" tabindex="0">
+                    <div
+                        class="row gy-4 row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 data-listing">
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card
+                            card-image="media/the-first-of-us.webp"
+                            movie-name="Awakening: The First Ones"
+                            card-path="tv-show-detail.html"
+                            }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card card-image="media/migration.webp"
+                            movie-name="Beyond Borders" card-path="tv-show-detail.html"
+                            }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card
+                            card-image="media/spiderman.webp"
+                            movie-name="Spider Sentinel" card-path="tv-show-detail.html"
+                            }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card
+                            card-image="media/minions.webp"
+                            movie-name="Minions" card-path="tv-show-detail.html"
+                            }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card
+                            card-image="media/pirates-ofdayones-orignal.webp"
+                            movie-name="Pirates of Day One" card-path="tv-show-detail.html"
+                            }}
+                        </div>
+                        <div class="col">
+                            {{> components/widgets/watchlist-detail-card
+                            card-image="media/assassins-creed.webp"
+                            movie-name="Assassin creed" card-path="tv-show-detail.html"
+                            }}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-episode" role="tabpanel" tabindex="0"
+                    aria-labelledby="pills-episode-tab">
+                    <div
+                        class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 ">
+                        <p class="text-center w-100">No watchlist available.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{!-- Mobile Footer --}}
+{{> components/widgets/mobile-footer}}
+{{/content}}
+{{/extend}}

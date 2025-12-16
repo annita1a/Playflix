@@ -1,0 +1,74 @@
+{{#extend
+"layouts/dashboard/simple"
+isSidebar="false"
+isNavbar="false"
+isBanner="false"
+isPageContainer="false"
+title="signin"
+active="auth-sign-in"
+path="../"
+}}
+{{#content "content"}}
+
+<section class="sign-in-page" style="background-image: url('{{path}}assets/images/login/login.webp')">
+   <div class="container">
+      <div class="justify-content-center align-items-center height-self-center row">
+         <div class="align-self-center col-lg-5 col-md-12">
+            <div class="sign-user_card">
+               <a href="{{path}}index.html">
+                  <img class="img-fluid logo" src="{{path}}assets/images/logo-full.png" alt="#">
+               </a>
+               <div class="sign-in-page-data">
+                  <div class="sign-in-from w-100 m-auto">
+                     <h3 class="mb-3 text-center">Sign in</h3>
+                     <form>
+                        <div class="mb-3">
+                           <label for="exampleInputEmail1" class="mb-2">
+                              Username or Email Address </label>
+                           <input placeholder="Enter email" autocomplete="off" required type="email"
+                              id="exampleInputEmail1" class="mb-0 form-control" />
+                        </div>
+                        <div class="mb-3">
+                           <label for="exampleInputPassword2" class="mb-2">
+                              Password </label>
+                           <div class="input-group custom-input-group mb-3">
+                              <input placeholder="Password" required type="password" id="exampleInputPassword2"
+                                 class="mb-0 form-control">
+                              <span class="input-group-text"><i class="ph ph-eye-slash" id="togglePassword"></i></span>
+                           </div>
+                        </div>
+                        <div class="forgot-password">
+                           <a href="{{path}}auth/recoverpw.html">
+                              Forgot your password? </a>
+                        </div>
+                        <div class="submit">
+                           <input type="hidden" name="action" value="streamit_login">
+                           <input type="submit" value="Login" class="btn btn-primary w-100 custom-sign-btn">
+                        </div>
+                        <div class="login-form-bottom">
+                           <div class="d-flex justify-content-center align-items-center gap-2 links my-3">
+                              If You are new?
+                              <a href="{{path}}auth/sign-up.html" class="st-sub-card setting-dropdown">
+                                 <h6 class="text-primary m-0">
+                                    Sign Up </h6>
+                              </a>
+
+                           </div>
+                        </div>
+                        <div class="css_prefix-separator">
+                           <span class="or-section"> OR </span>
+                        </div>
+                        <div class="css_prefix-social-login-section">
+                           <div>No apps configured. Please contact your administrator.</div>
+                        </div>
+                     </form>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+{{/content}}
+{{/extend}}

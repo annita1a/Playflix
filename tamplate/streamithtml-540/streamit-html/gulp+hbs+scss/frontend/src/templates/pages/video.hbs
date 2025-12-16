@@ -1,0 +1,312 @@
+{{#extend layout title="Video" active="video" isHeader="true" isFooter="true" path="./" isFslightbox="true"
+isSwiperSlider="true" bodyClass="custom-header-relative" isSweetalert="true"}}
+{{#content "content"}}
+{{!-- main banner start --}}
+<section class="banner-container">
+  <div class="movie-banner">
+    <div class="swiper swiper-banner-container iq-rtl-direction" data-swiper="banner-detail-slider"
+      data-pagination="true" data-autoplay="true">
+      <div class="swiper-wrapper">
+        {{> components/widgets/movie-slider movieCard="video-1" image-path="media/toddler.webp" movieTitle="Toddler"
+        movieCate="782" movieCate-icon="true" movieTime="50m" movieYear="January 2025"
+        button-url="video-detail.html" movieText="A toddler is a young child between the ages of 1 and 3 years, just
+        beginning to walk and talk. This stage is marked by rapid physical and cognitive development, with toddlers
+        learning to explore their surroundings, communicate basic needs, and gain independence. They are curious,
+        energetic, and often engage in play that helps them develop important motor and social skills."}}
+        {{> components/widgets/movie-slider movieCard="video-2" image-path="media/the-crew.webp" movieTitle="The Crew"
+        movieCate="240" movieCate-icon="true" movieTime="1hr : 30m" movieYear="January 2025"
+        button-url="video-detail.html" movieText="The Crew is a high-octane action series that follows an elite team of covert operatives as they undertake dangerous missions around the globe. Each member brings unique skills, from hacking and combat to espionage and strategy. Together, they navigate a web of international intrigue, facing off against ruthless enemies and uncovering conspiracies that threaten global security. With adrenaline-pumping action, complex characters, and unexpected twists, The Crew delivers non-stop excitement and suspense. "}}
+        {{> components/widgets/movie-slider movieCard="video-3" image-path="media/red.webp"
+        movieTitle="Red" movieCate="498" movieCate-icon="true" movieTime="1h : 15m" movieYear="January 2025"
+        button-url="video-detail.html" movieText=" Red is a vibrant and powerful color often associated with strong
+        emotions like love, passion, and intensity. In this video, Red comes to life through dynamic visuals, showcasing
+        its influence in nature, culture, and art. From roses and sunsets to fashion and symbolism, the video explores
+        the many facets of this captivating color, revealing its ability to evoke powerful responses and leave a lasting
+        impression.
+        "}}
+         {{> components/widgets/movie-slider movieCard="video-4" image-path="media/kung-fu-panda.webp"
+        movieTitle="Kung Fu Panda" movieCate="498" movieCate-icon="true" movieTime="1h : 15m" movieYear="January 2025"
+        button-url="video-detail.html" movieText="Kung Fu Panda is an animated adventure that follows Po, a lovable and clumsy panda with a passion for kung fu. In this video, we see Po’s journey from an unlikely hero to the powerful Dragon Warrior, mastering martial arts to protect his friends and village from fierce enemies. Alongside his mentors, the Furious Five, Po learns about self-belief, perseverance, and the true spirit of kung fu, combining humor, action, and heartwarming moments."}}
+      </div>
+      <div class="swiper-pagination d-block d-lg-none"></div>
+      <div class="swiper-banner-button-next d-none d-lg-block">
+        <i class="ph ph-caret-right icli  arrow-icon"></i>
+      </div>
+      <div class="swiper-banner-button-prev d-none d-lg-block">
+        <i class="ph ph-caret-left icli  arrow-icon"></i>
+      </div>
+    </div>
+  </div>
+</section>
+{{!-- main banner End --}}
+
+<div class="container-fluid">
+  <div class="overflow-hidden">
+
+    {{!-- top 10 Start --}}
+    <div class="top-ten-block section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-md-3 px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Top 10 Video To Watch</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card iq-top-ten-block-slider" data-slide="6" data-laptop="6"
+          data-tab="3" data-mobile="2" data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true"
+          data-pagination="true" data-navigation-outer="true">
+          <ul class="p-0 swiper-wrapper mb-5 list-inline">
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/frzzen-portrait.webp" count-value="1"
+              prodct-primium="true" cardurl-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/toddler-portrait.webp" count-value="2"
+              prodct-primium="true" cardurl-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/gameofhero-portrait.webp" count-value="3"
+              cardurl-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/krishna-portrait.webp" count-value="4"
+              prodct-primium="true" cardurl-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/titanic-portrait.webp" count-value="5"
+              cardurl-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/reed-dog-portrait.webp" count-value="6"
+              cardurl-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/adventure.webp" count-value="7"
+              prodct-primium="true" cardurl-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/the-crew-portrait.webp" count-value="8"
+              cardurl-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/synchronic-portrait.webp" count-value="9"
+              cardurl-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/top-ten-card image-path="media/guilty-portrait.webp" count-value="10"
+              prodct-primium="true" cardurl-path="video-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+        <div class="swiper-btn">
+        </div>
+      </div>
+    </div>
+    {{!-- top 10 end --}}
+
+    {{!-- Popular Videos Start --}}
+    <div class="recommended-block section-top-spacing section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Popular Videos</h4>
+        <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none">View All</a>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="5" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="true" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/toddler.webp" card-title="Toddler"
+              movie-time="2hr :
+              12mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/frzzen.webp" card-title="Frzzen"
+              movie-time="1hr : 22mins" prodct-primium="true" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/tianic.webp" card-title="Tianic"
+              movie-time="2hr :
+              30mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/red.webp" card-title="Red"
+              movie-time="1hr
+              : 30mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/gameofhero.webp" card-title="Game
+              of Hero" movie-time="1hr :
+              30mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/reed-dog.webp" card-title="Reed
+              Dog"
+              movie-time="1hr : 30mins" prodct-primium="true" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-crew.webp" card-title="The
+              Crewr"
+              movie-time="1hr : 30mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!-- Popular Videos End --}}
+
+    {{!-- Upcoming Movie --}}
+    <div class="streamit-block section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-md-3 px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Upcoming Video</h4>
+        <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none flex-none">View All</a>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="true" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/kung-fu-panda-portrait.webp"
+              card-title="Kung fu panda"
+              movie-time="1hr : 22mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/red-portrait.webp" card-title="Red"
+              movie-time="1hr : 30mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/lost-in-space-portrait.webp" card-title="lost in space"
+              movie-time="1hr : 45mins" prodct-primium="true" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-dragon-king-portrait.webp" card-title="the Dragon
+              Kingce"
+              movie-time="2hr : 12mins" prodct-primium="true" card-lang="English" card-path="video-detail.html"}}
+            </li>
+
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/sonil-portrait.webp" card-title="Sonil"
+              movie-time="1hr : 30mins" prodct-primium="true" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/charlie-chaplin-portrait.webp" card-title="Charlie
+              Chaplin"
+              movie-time="1hr : 30mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/we-gare.webp" card-title="We Gare"
+              movie-time="1hr : 30mins" prodct-primium="true" card-lang="English" card-path="video-detail.html"}}
+            </li>
+          </ul>
+          <div class="swiper-button swiper-button-next"></div>
+          <div class="swiper-button swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+    {{!--Upcoming Movie end --}}
+
+    {{!-- Specials & Latest Videos Start --}}
+    <div class="recommended-block section-top-spacing  section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Specials & Latest Videos</h4>
+        <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none">View All</a>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="5" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="true" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">{{>components/widgets/card-style card-image="media/gameofhero-portrait.webp"
+              card-title="Game of Hero" movie-time="1hr : 30mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">{{>components/widgets/card-style card-image="media/krishna-portrait.webp"
+              card-title="Krishna" movie-time="2hr : 12mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">{{>components/widgets/card-style
+              card-image="media/reed-dog-portrait.webp" card-title="Reed Dog" movie-time="2hr :
+              30mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">{{>components/widgets/card-style card-image="media/frzzen-portrait.webp"
+              card-title="Frzzen" movie-time="2hr : 45mins" prodct-primium="true" card-lang="English"
+              card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">{{>components/widgets/card-style card-image="media/adventure.webp"
+              card-title="Adventure" movie-time="1hr : 55mins" prodct-primium="true" card-lang="English"
+              card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">{{>components/widgets/card-style card-image="media/kung-fu-panda-portrait.webp"
+              card-title="Kung fu Panda" movie-time="1hr : 25mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">{{>components/widgets/card-style card-image="media/red-portrait.webp"
+              card-title="Red" movie-time="1hr : 45mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!-- Specials & Latest Videos End --}}
+
+    {{!-- Videos Recommended For You Strat --}}
+    <div class="recommended-blocks section-wraper">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Videos Recommended For You</h4>
+        <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none">View All</a>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="5" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="true" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/krishna-portrait.webp"
+              card-title="Krishna"
+              movie-time="2hr : 12mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/adventure.webp" card-title="Adventure"
+              movie-time="1hr : 22mins" prodct-primium="true" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/synchronic-portrait.webp" card-title="Synchronic"
+              movie-time="1hr : 30mins" prodct-primium="true" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/lost-in-space-portrait.webp" card-title="Lost in Space"
+              movie-time="2hr : 30mins" prodct-primium="true" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-dragon-king-portrait.webp" card-title="The Dragon
+              King"
+              movie-time="1hr : 45mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/guilty-portrait.webp" card-title="Guilty"
+              movie-time="2hr : 25mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/gameofhero-portrait.webp" card-title="game
+              of hero"
+              movie-time="1hr : 45mins" card-lang="English" card-path="video-detail.html"}}
+            </li>
+          </ul>
+          <div class="d-none d-lg-block">
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- Videos Recommended For You End --}}
+
+{{!-- Mobile Footer --}}
+{{> components/widgets/mobile-footer}}
+{{/content}}
+{{/extend}}

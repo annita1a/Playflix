@@ -1,0 +1,217 @@
+<!-- Movie Description Start-->
+<ul class="p-0 mb-2 list-inline d-flex flex-wrap movie-tag">
+  <li class="trending-list"><a class="" href="{{path}}view-all-movie.html">Action</a></li>
+  <li class="trending-list"><a class="" href="{{path}}view-all-movie.html">Adventure</a></li>
+  <li class="trending-list"><a class="" href="{{path}}view-all-movie.html">Drama</a></li>
+</ul>
+<div class="d-block d-lg-flex align-items-center">
+  {{#if isnotmovieTitle}}
+  <h5 class="css_prefix-title text-capitalize line-count-1">
+    <a href="#" class="color-inherit">
+      {{moveName}} </a>
+  </h5>
+  {{else}}
+  <h3 class="trending-text fw-bold texture-text text-uppercase my-0 fadeInLeft animated d-inline-block"
+    data-animation-in="fadeInLeft" data-delay-in="0.6" style="opacity: 1; animation-delay: 0.6s">
+    {{moveName}}
+  </h3>
+  {{/if}}
+</div>
+<div class="movie-description mt-3 mb-4" id="readmore-wrapper">
+  <p class="line-count-3 RightAnimate-two mb-0">Game of Heros is an action-packed fantasy epic where the fate of the
+    world is decided in a battle of legendary warriors. When an ancient prophecy foretells an all-out war between the
+    greatest heroes of all realms, champions from different eras and dimensions are summoned to fight for ultimate
+    supremacy. Each warrior possesses unique abilities, weapons, and a past that drives them to victory—or doom.</p>
+  <div class="iq-blog-meta-cat-tag iq-blogtag readmore-tags">
+    <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#viewMoreDataModal" class="position-relative">Read More</a>
+  </div>
+</div>
+
+{{#if isVideoPageData}}
+
+<ul class="list-inline mx-0 p-0 d-flex align-items-center flex-wrap gap-3 movie-metalist">
+  <!-- Movie Views  -->
+  <li>
+    <div class="d-flex align-items-center gap-1">
+      <i class="ph ph-eye"></i>
+      <span class="">{{movieViews}}</span>
+    </div>
+  </li>
+
+  <!-- Movie Runtime  -->
+  <li>
+    <span class="d-flex align-items-center gap-1">
+      <span class="d-flex align-items-center justify-content-center"><i class="ph ph-clock"></i></span>
+      {{movieDuration}} </span>
+  </li>
+
+  <!-- Movie Releas data  -->
+  <li>
+    <span class="d-flex align-items-center gap-1">
+      <span class="fw-medium">
+        {{movieReleased}} </span>
+    </span>
+  </li>
+</ul>
+{{else}}
+<ul class="list-inline mb-0 mx-0 p-0 d-flex align-items-center flex-wrap gap-3 movie-metalist">
+
+  <!-- Movie Releas data  -->
+  <li>
+    <span class="d-flex align-items-center gap-1">
+      <span class="fw-medium">
+        {{movieReleased}} </span>
+    </span>
+  </li>
+
+  <!-- Movie Runtime  -->
+  {{#if isNotClockduration}}
+  {{else}}
+  <li>
+    <span class="d-flex align-items-center gap-1">
+      <span class="d-flex align-items-center justify-content-center"><i class="ph ph-clock"></i></span>
+      {{movieDuration}} </span>
+  </li>
+  {{/if}}
+
+  <!-- Movie Views  -->
+  <li>
+    <div class="d-flex align-items-center gap-1">
+      <i class="ph ph-eye"></i>
+      <span class="">{{movieViews}}</span>
+    </div>
+  </li>
+
+  <!-- Movie IMDP Rating  -->
+  {{#if isNotimdbRating}}
+  {{else}}
+  <li>
+    <span class="d-flex align-items-center gap-1">
+      <span class="fw-medium">
+        <span>
+          {{imdbRating}} </span>
+        <span class="imdb-logo ms-1">
+          <img src="{{path}}assets/images/pages/imdb-logo.svg" loading="lazy" decoding="async" alt="imdb logo"
+            class="img-fluid imdb-logo1">
+        </span>
+      </span>
+    </span>
+  </li>
+  {{/if}}
+
+  <!-- Movie Censor Rating -->
+  {{#if isNotTVShowbadge}}
+  {{else}}
+  <li>
+    <span class="badge bg-secondary d-flex align-items-center gap-2 fw-bold font-size-12 movie-type-tag">
+      <span>
+        {{movieType}} </span>
+    </span>
+  </li>
+  {{/if}}
+
+</ul>
+{{/if}}
+
+{{#if movieLanguage}}
+<div class="video-language d-flex align-items-center gap-1 mt-2">
+  <i class="ph ph-translate"></i>
+  <ul class="list-inline m-0 p-0 d-inline-flex align-items-center gap-3 flex-wrap">
+    <li>
+      <small class="text-capitalize">{{movie-lang}}</small>
+    </li>
+
+    <!-- Display additional languages count if applicable -->
+  </ul>
+</div>
+{{/if}}
+<div class="d-flex align-items-center flex-wrap gap-3 gap-md-4 my-5">
+  {{#if isNotstartWatching}}
+
+  {{else}}
+  <div class="iq-play-button iq-button">
+    {{#if subscribe-to-watch}}
+    <a href="pricing-plan.html" class="btn btn-primary w-100 rounded d-flex align-items-center justify-content-center gap-2 lh-1">
+        <span><i class="ph-fill ph-crown fs-6"></i></span>
+        <span>Subscribe to Watch</span>
+    </a>
+    {{else}}
+    <a href="{{videoUrl}}" class="btn btn-primary w-100 rounded d-flex align-items-center justify-content-center gap-2 lh-1">
+        <span><i class="ph-fill ph-play"></i></span>
+        <span>Start Watching</span>
+    </a>
+    {{/if}}
+  </div>
+  {{/if}}
+
+  {{#if isNotwatchList}}
+
+  {{else}}
+  <div class="watchlist-button-wrapper">
+
+    <a href="{{path}}watchlist-detail.html" class="btn btn-secondary border rounded" data-bs-toggle="tooltip"
+      data-bs-placement="top" data-bs-original-title="Add to watchlist" data-bs-trigger="focus">
+      <span class="d-flex align-items-center justify-content-center gap-2">
+        <span class="fw-semibold"><i class="ph ph-plus"></i></span>
+        <span class="fw-semibold">Watch List</span>
+      </span>
+    </a>
+  </div>
+  {{/if}}
+  <div class="d-flex align-items-center gap-3 flex-wrap">
+    {{#if isNotLikemovies}}
+    {{else}}
+    <button type="button" class="action-btn btn btn-secondary border" data-bs-toggle="modal" data-bs-target="#likeModal"
+      id="like-toggle">
+      <span id="like-movies">
+        <span class="h-100 w-100 d-block" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Like">
+          <i class="ph ph-heart heart-icon"></i>
+        </span>
+      </span>
+    </button>
+    {{/if}}
+
+    {{#if isNotSharenetwork}}
+    {{else}}
+    <button type="button" class="action-btn btn btn-secondary border" data-bs-toggle="modal"
+      data-bs-target="#shareModal">
+      <span class="h-100 w-100 d-block" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Share">
+        <i class="ph ph-share-network"></i>
+      </span>
+    </button>
+    {{/if}}
+
+    {{#if isNotPlaylistbtn}}
+
+    {{else}}
+    <button type="button" class="btn btn-secondary action-btn border" data-bs-toggle="modal"
+      data-bs-target="#playlistModal">
+      <span class="h-100 w-100 d-block" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Playlist">
+        <i class="ph ph-playlist"></i>
+      </span>
+    </button>
+    {{/if}}
+
+    {{#if isNotdownloadbtn}}
+
+    {{else}}
+    <button type="button" class="btn btn-secondary action-btn border" data-bs-toggle="modal"
+      data-bs-target="#downloadModal">
+      <span class="h-100 w-100 d-block" data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-original-title="Download">
+        <i class="ph ph-download-simple"></i>
+      </span>
+    </button>
+    {{/if}}
+  </div>
+</div>
+<!-- Movie Description End -->
+
+<!-- Modals -->
+{{> components/widgets/playlist-modal }}
+
+{{> components/widgets/share-modal }}
+
+{{> components/widgets/download-modal }}
+
+<!-- Modals End -->

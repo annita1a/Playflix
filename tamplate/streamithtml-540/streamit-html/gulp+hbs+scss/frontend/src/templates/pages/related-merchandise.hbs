@@ -1,0 +1,437 @@
+{{#extend layout title="Related Merchandise" active="related-merchandise" isHeader="true" isFooter="true"
+isFslightbox="true" path="./" isSwiperSlider="true" bodyClass="custom-header-relative" isVideoJs="true"
+isSelect2="true" isSweetalert="true" }}
+{{#content "content"}}
+<!-- Banner Start -->
+<div class="poition-relative">
+  <div class="iq-main-slider site-video position-relative">
+    <video id="my-video" poster="{{path}}assets/images/media/dinoosaur.webp"
+      class="my-video video-js vjs-big-play-centered w-100" loop autoplay muted preload="auto" data-setup='{
+                  "techOrder": ["youtube"],
+                  "sources": [{
+                      "type": "video/youtube",
+                      "src": "https://www.youtube.com/watch?v=spGSAeqxVUc"
+                  }],
+                  "youtube": {         
+                      "modestbranding": 1,
+                      "rel": 0,
+                      "showinfo": 0,
+                      "autoplay": 1
+                  },
+                  "fullscreen": true
+              }'>
+    </video>
+  </div>
+
+
+  {{!-- Detail part Start --}}
+  <div class="movie-detail-part position-relative">
+    <div class="trending-info pt-0 pb-0">
+      <div class="details-parts">
+        {{> components/widgets/movie-description moveName="Dinoosaur"
+        movieType="NC-17" movieDuration="2hr : 17m" movieReleased="2001" movieViews="1.0k views" imdbRating="5"
+        }}
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- Banner End --}}
+
+
+
+<div class="container-fluid">
+  <div class="overflow-hidden">
+    {{!-- Recommended Start --}}
+    <div class="recommended-block section-padding-top">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Recommended</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6 " data-laptop="6" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/rabbit-portrait.webp" card-title="Rabbit"
+              movie-time="1hr : 30mins" card-lang="English (UK)" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/venom-portrait.webp" card-title="Venom"
+              movie-time="1hr : 22mins" card-lang="English (UK)" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/migration-portrait.webp"
+              card-title="Migration"
+              movie-time="2hr : 30mins" card-lang="English (UK)" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/gameofhero-portrait.webp"
+              card-title="Game Of Heros"
+              movie-time="2hr : 12mins" prodct-primium="true" card-lang="English (UK)" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/batter-caill-portrait.webp" card-title="Better Caill Saul"
+              movie-time="2hr : 25mins" prodct-primium="true" card-lang="English (UK)" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/kali-portrait.webp"
+              card-title="Kali"
+              movie-time="1hr : 45mins" card-lang="English (UK)" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/deadpool.webp" card-title="Deadpool"
+              movie-time="1hr : 45mins" card-lang="English (UK)" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/krishna-portrait.webp"
+              card-title="Krishna"
+              movie-time="1hr : 45mins" card-lang="English (UK)" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/jumanji-portrait.webp"
+              card-title="Jumanji"
+              movie-time="1hr : 45mins" card-lang="English (UK)" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/any-name-portrait.webp" card-title="Any
+              Name"
+              movie-time="1hr : 45mins" card-lang="English (UK)" card-path="movie-detail.html"}}
+            </li>
+          </ul>
+          <div class="swiper-button swiper-button-next d-none d-lg-block"></div>
+          <div class="swiper-button swiper-button-prev d-none d-lg-block"></div>
+        </div>
+      </div>
+    </div>
+    {{!-- Movies Recommended For You End --}}
+
+    {{!-- Starring start --}}
+    <div class="favourite-person-block">
+      <div class="overflow-hidden">
+        <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+          <h4 class="main-title text-capitalize mb-0">Starring</h4>
+        </div>
+        <div class="position-relative swiper swiper-card" data-slide="11" data-laptop="11" data-tab="4" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline personality-card">
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="olivia-foster.webp" cast-title="Olivia Foster"
+              cast-category="actress" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="leena-burton.webp" cast-title="Leena Burton"
+              cast-category="actress" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="ryan-pierce.webp" cast-title="Ryan Pierce"
+              cast-category="actor" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="michael-fox.webp" cast-title="Michael Fox"
+              cast-category="producer" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="ruby-scott.webp" cast-title="Ruby Scott"
+              cast-category="director" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="maxwell-carter.webp" cast-title="Maxwell Carter"
+              cast-category="actress" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="mark-smith.webp" cast-title="Mark Smith"
+              cast-category="producer" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="ava-monroe.webp" cast-title="Ava Monroe"
+              cast-category="actress" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="jack-nicholson.webp" cast-title="Jack Nicholson"
+              cast-category="actor" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="charles-melton.webp" cast-title="Charles Melton"
+              cast-category="actor" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="jeff-bridges.webp" cast-title="Jeff Bridges"
+              cast-category="actress" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="james-stewart.webp" cast-title="James Stewart"
+              cast-category="actor" cast-path="person-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="jordan-grant.webp" cast-title="Jordan Grant"
+              cast-category="actress" cast-path="person-detail.html"}}
+            </li>
+          </ul>
+          <div class="swiper-button swiper-button-next d-none d-lg-block"></div>
+          <div class="swiper-button swiper-button-prev d-none d-lg-block"></div>
+        </div>
+      </div>
+    </div>
+    {{!-- Starring End --}}
+
+    {{!-- Crew start --}}
+    <div class="favourite-person-block">
+      <div class="overflow-hidden">
+        <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+          <h4 class="main-title text-capitalize mb-0">Crew</h4>
+        </div>
+        <div class="position-relative swiper swiper-card" data-slide="11" data-laptop="11" data-tab="4" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline personality-card">
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="maria-rodriguez.webp" cast-title="Maria Rodriguez"
+              cast-category="director"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="oliver-turner.webp" cast-title="Oliver Turner"
+              cast-category="director"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="john-abraham.webp" cast-title="John Abraham"
+              cast-category="director"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="benjamin-hayes.webp" cast-title="Benjamin Hayes"
+              cast-category="director" other-cast-category="Producer"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="ethan-crawford.webp" cast-title="Ethan Crawford"
+              cast-category="producer"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="mark-wilson.webp" cast-title="mark wilson"
+              cast-category="director"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="jack-walker.webp" cast-title="Jack Walker"
+              cast-category="director"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="angel-louis.webp" cast-title="angel louis"
+              cast-category="producer"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="millar-joseph.webp" cast-title="Millar joseph"
+              cast-category="producer"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="kelly-reilly.webp" cast-title="Kelly Reilly"
+              cast-category="director"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="smith-jonas.webp" cast-title="smith Jonas"
+              cast-category="director"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="davina-decorous.webp" cast-title="Davina decorous"
+              cast-category="producer"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="thomas-bailey.webp" cast-title="Thomas bailey"
+              cast-category="producer"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/personality-card cast-image="leena-burton.webp" cast-title="Leena burton"
+              cast-category="producer"}}
+            </li>
+          </ul>
+          <div class="swiper-button swiper-button-next d-none d-lg-block"></div>
+          <div class="swiper-button swiper-button-prev d-none d-lg-block"></div>
+        </div>
+      </div>
+    </div>
+    {{!-- Crew End --}}
+
+    {{!-- Movies Related For You Start --}}
+    <div class="related-movie-block">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Related Movies</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="true" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/rabbit-portrait.webp" card-title="Rabbit" movie-time="2hr : 12mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/krishna-portrait.webp" card-title="Krishna"
+              movie-time="1hr : 22mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/kali-portrait.webp" card-title="Kali"
+              movie-time="1hr : 30mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/joker.webp" card-title="Joker"
+              movie-time="1hr: 45mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-hunter-portrait.webp" card-title="The Hunter"
+              movie-time="1hr : 30mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/jumanji-portrait.webp" card-title="Jumanji"
+              movie-time="1hr : 30mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+          </ul>
+          <div class="swiper-button swiper-button-next"></div>
+          <div class="swiper-button swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+    {{!-- Movies Related For You End --}}
+
+    {{!-- Video Related For You Start --}}
+    <div class="video-block">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Related Videos</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/frzzen.webp" card-title="Frzzen" movie-time="2hr : 12mins" card-lang="English" card-path="movie-detail.html" prodct-primium="true"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/titanic-portrait.webp" card-title="Titanic"
+              movie-time="1hr : 22mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/Adventure-1.webp" card-title="Adventure" movie-time="1hr
+              : 30mins" card-lang="English" card-path="movie-detail.html" prodct-primium="true"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/kung-fu-panda-portrait.webp" card-title="Kung fu Panda"
+              movie-time="1hr : 45mins" card-lang="English" card-path="movie-detail.html" prodct-primium="true"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/red-portrait.webp" card-title="Red"
+              movie-time="1hr : 30mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/lost-in-space-portrait.webp" card-title="Lost in Space"
+              movie-time="1hr : 30mins" card-lang="English" card-path="movie-detail.html" prodct-primium="true"}}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/charlie-chaplin-portrait.webp" card-title="Charlie Chaplin"
+              movie-time="1hr : 30mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+          </ul>
+          <div class="swiper-button swiper-button-next"></div>
+          <div class="swiper-button swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+    {{!-- Video Related For You End --}}
+
+    {{!-- Related Product Start --}}
+    <div class="related-product-block">
+      <div class="overflow-hidden">
+        <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+          <h4 class="main-title text-capitalize mb-0">Related Products</h4>
+        </div>
+        <div class="card-style-slider">
+          <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3" data-mobile="2"
+            data-mobile-sm="2" data-autoplay="false" data-loop="true" data-navigation="true" data-pagination="true">
+            <ul class="p-0 swiper-wrapper m-0  list-inline">
+              <li class="swiper-slide">
+                {{> components/widgets/product-card ProductImg="01.webp" id="01" shopTitle="Bag Pack" shopSale="Sale!"
+                bgShop="primary"
+                shopDel="$48.00" shopPrice="$28.00" rating="4" ratingStars="true"}}
+              </li>
+              <li class="swiper-slide">
+                {{> components/widgets/product-card ProductImg="02.webp" id="02" shopTitle="Believe Mask"
+                shopDel="" shopPrice="$13.00" rating='5' ratingStars="true"}}
+              </li>
+              <li class="swiper-slide">
+                {{> components/widgets/product-card ProductImg="03.webp" id="03" shopTitle="Black Bow" shopSale="Sale!"
+                shopDel="" shopPrice="$18.00 - $45.00" rating='5' ratingStars="true"}}
+              </li>
+              <li class="swiper-slide">
+                {{> components/widgets/product-card ProductImg="04.webp" id="04" shopTitle="Black Cap" shopSale="New!"
+                bgShop="dark"
+                shopDel="$20.00" shopPrice="$18.00" rating='5' ratingStars="true"}}
+              </li>
+              <li class="swiper-slide">
+                {{> components/widgets/product-card ProductImg="05.webp" id="05" shopTitle="Boxing Gloves"
+                shopDel="$18.00" shopPrice="$10.00" rating='5' ratingStars="true"}}
+              </li>
+              <li class="swiper-slide">
+                {{> components/widgets/product-card ProductImg="06.webp" id="05" shopTitle="Carry Bag"
+                shopDel="$18.00" shopPrice="$10.00" rating='5' ratingStars="true"}}
+              </li>
+              </li>
+              <li class="swiper-slide">
+                {{> components/widgets/product-card ProductImg="07.webp" id="05" shopTitle="Cartoon Character"
+                shopDel="$18.00" shopPrice="$10.00" rating='5' ratingStars="true"}}
+              </li>
+            </ul>
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!-- Related Product end --}}
+
+    <!-- Upcoming Start -->
+    <div class="upcomimg-block">
+      <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+        <h4 class="main-title text-capitalize mb-0">Upcoming</h4>
+      </div>
+      <div class="card-style-slider">
+        <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3" data-mobile="2"
+          data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true" data-pagination="true">
+          <ul class="p-0 swiper-wrapper m-0  list-inline">
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-first-of-us-portrait.webp" card-title="the first of us"
+              movie-time="2hr : 12mins" card-lang="English" card-path="movie-detail.html" }}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/migration-portrait.webp" card-title="Migration"
+               movie-time="1hr : 22mins" card-lang="English" card-path="movie-detail.html" }}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/tianic.webp" card-title="Titanic"
+              movie-time="1hr : 55mins" card-lang="English" card-path="movie-detail.html" }}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/the-crew-portrait.webp" card-title="The Crew"
+              movie-time="1hr : 30mins"  prodct-primium="true" card-lang="English" card-path="movie-detail.html" }}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/pirates-ofdayones-orignal.webp" card-title="Pirates of the Day Ones"
+              movie-time="2hr : 45mins" card-lang="English" card-path="movie-detail.html" }}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/castle-rock-portrait.webp" card-title="Castle Rock"
+              movie-time="1hr : 45mins" card-lang="English" card-path="movie-detail.html" }}
+            </li>
+            <li class="swiper-slide">
+              {{>components/widgets/card-style card-image="media/vikings-portrait.webp" card-title="Vikings"
+              movie-time="2hr : 30mins" card-lang="English" card-path="movie-detail.html"}}
+            </li>
+          </ul>
+          <div class="swiper-button swiper-button-next"></div>
+          <div class="swiper-button swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Upcoming End -->
+
+    <div class="section-padding-bottom">
+      {{!-- Review Start --}}
+      {{> components/widgets/details-review }}
+    </div>
+  </div>
+</div>
+
+{{> components/widgets/mobile-footer}}
+{{/content}}
+{{/extend}}

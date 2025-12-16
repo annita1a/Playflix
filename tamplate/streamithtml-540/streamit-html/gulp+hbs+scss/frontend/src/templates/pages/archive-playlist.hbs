@@ -1,0 +1,182 @@
+{{#extend layout title="Playlist" active="archive-playlist" isHeader="true" isFooter="true" path="./"
+isFslightbox="true" isBreadcrumb="true"
+bodyClass="custom-header-relative" isSweetalert="true" isSelect2="true"}}
+{{#content "content"}}
+
+<section class="section-padding">
+    <div class="container-fluid">
+        <div class="play-lists">
+            <div class="row g-2 column-reverce align-items-center border-bottom playlist-bottom-margin">
+                <div class="col-8 col-sm-9 col-lg-10">
+                    <div id="item-nav">
+                        <div class="item-list-tabs no-ajax css_prefix-tab-lists" id="object-nav">
+                            <!-- Playlist Tabs -->
+                            <ul class="nav nav-underline data-search-tab" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-movie-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-movie" type="button" role="tab"
+                                        aria-controls="pills-movie" aria-selected="true">
+                                        Movie </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link " id="pills-video-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-video" type="button" role="tab"
+                                        aria-controls="pills-video" aria-selected="false" tabindex="-1">
+                                        Video </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link " id="pills-episode-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-episode" type="button" role="tab"
+                                        aria-controls="pills-episode" aria-selected="false" tabindex="-1">
+                                        Episode </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-3 col-lg-2">
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="manage_playlist action-btn btn btn-link" data-bs-toggle="modal"
+                            data-bs-target="#creatplaylistModal">
+                            <span class="h-100 w-100 d-block" data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-title="Playlist"> Add Playlist </span>
+                        </button>
+
+                        <div class="modal fade view-more-data-modal edit-profile-modal" id="creatplaylistModal"
+                            tabindex="-1" aria-modal="true" role="dialog">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="createPlaylist">Create Playlist
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body pt-0">
+                                        <form id="st_creat_playlist" action="#" method="post">
+                                            <input id="st_playlist_id" type="hidden" value="">
+                                            <div class="form-group mb-4">
+                                                <label class="form-label">Playlist Title</label>
+                                                <span class="text-danger">*</span>
+                                                <input class="form-control" type="text" id="st_playlist_title" value="">
+                                            </div>
+                                            <div class="form-group playlist-select mb-4">
+                                                <label class="form-label">Select Playlist Type</label>
+                                                <span class="text-danger">*</span>
+                                                <select name="movieselect"
+                                                    class="form-control movie-select select2-basic-single js-states">
+                                                    <option value="1">Movie</option>
+                                                    <option value="2">Video</option>
+                                                    <option value="3">Episode</option>
+                                                </select>
+                                            </div>
+                                            <div class="iq-button">
+                                                <button type="button"
+                                                    class="btn btn-primary position-relative rounded-3"
+                                                    data-bs-toggle="modal" data-bs-target="#addNewPlaylist">
+                                                    <span class="button-text">Create Playlist</span>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Playlist Tab Content -->
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade active show" id="pills-movie" role="tabpanel" tabindex="0"
+                    aria-labelledby="pills-movie-tab">
+                    <div
+                        class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 ">
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="4 Movies" movie-type="90s
+                            Throwback" profile-card-image="media/migration.webp"}}
+                        </div>
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="3 Movies"
+                            movie-type="Action"
+                            profile-card-image="media/jumanjj.webp"}}
+                        </div>
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="3 Movies"
+                            movie-type="Blockbuster Trt"
+                            profile-card-image="media/chosfies.webp"}}
+                        </div>
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="2 Movies"
+                            movie-type="Dramas"
+                            profile-card-image="media/Bumblebee.webp"}}
+                        </div>
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="1 Movies"
+                            movie-type="Horror"
+                            profile-card-image="media/venom.webp"}}
+                        </div>
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="1 Movies"
+                            movie-type="Road
+                            Trip Movies"
+                            profile-card-image="media/rabbit.webp"}}
+                        </div>
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="2 Movies"
+                            movie-type="Romantic ..."
+                            profile-card-image="media/yoshi.webp"}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-tvshow" role="tabpanel" tabindex="0">
+                    <div
+                        class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 ">
+                        <p class="text-center w-100">No playlists available.</p>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-video" role="tabpanel" tabindex="0"
+                    aria-labelledby="pills-video-tab">
+                    <div
+                        class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 ">
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="3 Videos"
+                            movie-type="Chill &
+                            Relax"
+                            profile-card-image="media/krishna.webp"}}
+                        </div>
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="2 Videos"
+                            movie-type="Love Of
+                            Animals"
+                            profile-card-image="media/kung-fu-panda.webp"}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-episode" role="tabpanel" tabindex="0"
+                    aria-labelledby="pills-episode-tab">
+                    <div
+                        class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 ">
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="2 Episodes"
+                            movie-type="Episode Unlimited"
+                            profile-card-image="media/minions.webp"}}
+                        </div>
+                        <div class="col">
+                            {{>components/widgets/profile-card movie-category="1 Episode"
+                            movie-type="Radhe
+                            Krishna Stories"
+                            profile-card-image="media/krishna.webp"}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{/content}}
+{{/extend}}

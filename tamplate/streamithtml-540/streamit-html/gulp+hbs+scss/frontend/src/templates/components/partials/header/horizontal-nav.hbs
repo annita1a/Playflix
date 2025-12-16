@@ -1,0 +1,295 @@
+<!-- Horizontal Menu Start -->
+<nav id="navbar_main"
+  class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav py-xl-0 w-100">
+  <div class="container-fluid p-lg-0">
+    <div class="offcanvas-header px-0">
+      <div class="navbar-brand ms-3">
+        {{> components/widgets/logo}}
+      </div>
+      <button type="button" class="btn-close float-end px-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <ul class="navbar-nav iq-nav-menu  list-unstyled" id="header-menu">
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#homePages" role="button" aria-expanded="false"
+          aria-controls="homePages">
+          <div class="d-flex justify-content-between">
+            <span class="item-name">Home</span>
+            <span class="menu-icon">
+              <i class="ph ph-caret-down align-middle"></i>
+            </span>
+          </div>
+        </a>
+        <ul class="sub-nav collapse  list-unstyled border rounded-3" id="homePages">
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'index'}}active{{/compare}}" href="{{path}}index.html"> OTT Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'home'}}active{{/compare}}" href="{{path}}home.html">Main Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'movie'}}active{{/compare}}" href="{{path}}movie.html"> Movie </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'tv-show'}}active{{/compare}}" href="{{path}}tv-show.html"> TV
+              Show </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'video'}}active{{/compare}}" href="{{path}}video.html"> Video </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'merchandise-store'}}active{{/compare}}"
+              href="{{path}}merchandise-store.html"> Merchandise Store </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#features" role="button" aria-expanded="false"
+          aria-controls="homePages">
+          <div class="d-flex justify-content-between">
+            <span class="item-name">Features</span>
+            <span class="menu-icon">
+              <i class="ph ph-caret-down align-middle"></i>
+            </span>
+          </div>
+        </a>
+        <ul class="sub-nav collapse  list-unstyled border rounded-3" id="features">
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'download-movie'}}active{{/compare}}"
+              href="{{path}}download-movie.html">
+              Download Movie </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'restricted-content'}}active{{/compare}}"
+              href="{{path}}restricted-content.html"> Restricted Content </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'related-merchandise'}}active{{/compare}}"
+              href="{{path}}related-merchandise.html"> Related Merchandise </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'geners'}}active{{/compare}}" href="{{path}}geners.html"> Genres
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'tags'}}active{{/compare}}" href="{{path}}tags.html"> Tags </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'cast'}}active{{/compare}}" href="{{path}}cast.html"> Cast </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#pages" role="button" aria-expanded="false"
+          aria-controls="homePages">
+          <div class="d-flex justify-content-between">
+            <span class="item-name">Pages</span>
+            <span class="menu-icon">
+              <i class="ph ph-caret-down align-middle"></i>
+            </span>
+          </div>
+        </a>
+        <ul class="sub-nav collapse  list-unstyled border rounded-3" id="pages">
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'about-us'}}active{{/compare}}" href="{{path}}about-us.html">
+              About Us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'contact-us'}}active{{/compare}}" href="{{path}}contact-us.html">
+              Contact Us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'faq'}}active{{/compare}}" href="{{path}}faq.html"> FAQ </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'privacy-policy'}}active{{/compare}}"
+              href="{{path}}privacy-policy.html"> Privacy Policy </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'pricing-plan'}}active{{/compare}}"
+              href="{{path}}pricing-plan.html"> Pricing Plan </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'coming-soon'}}active{{/compare}}"
+              href="{{path}}coming-soon.html"> Coming Soon </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'error-page-one'}}active{{/compare}}"
+              href="{{path}}error-page-one.html">
+              Error 404 </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#blog" role="button" aria-expanded="false"
+          aria-controls="blog">
+          <div class="d-flex justify-content-between">
+            <span class="item-name">Blog</span>
+            <span class="menu-icon">
+              <i class="ph ph-caret-down align-middle"></i>
+            </span>
+          </div>
+        </a>
+        <ul class="sub-nav collapse  list-unstyled border rounded-3" id="blog">
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'blog-listing'}}active{{/compare}}"
+              href="{{path}}blog/blog-listing.html"> Listing </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#blog-grid" role="button" aria-expanded="false"
+              aria-controls="blog-grid">
+              <div class="d-flex justify-content-between">
+                <span class="item-name">Blog Grid</span>
+                <span class="menu-icon">
+                  <i class="ph ph-caret-down align-middle down-to-right"></i>
+                </span>
+              </div>
+            </a>
+            <ul class="sub-nav collapse  list-unstyled border rounded-3" id="blog-grid">
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'one-column'}}active{{/compare}}"
+                  href="{{path}}blog/one-column.html"> One Column Blog </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'two-column'}}active{{/compare}}"
+                  href="{{path}}blog/two-column.html"> Two Column Blog </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'three-column'}}active{{/compare}}"
+                  href="{{path}}blog/three-column.html"> Three Column Blog </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'four-column'}}active{{/compare}}"
+                  href="{{path}}blog/four-column.html"> Four Column Blog </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#blog-sidebar" role="button" aria-expanded="false"
+              aria-controls="blog-sidebar">
+              <div class="d-flex justify-content-between">
+                <span class="item-name">Blog Sidebar</span>
+                <span class="menu-icon">
+                  <i class="ph ph-caret-down align-middle down-to-right"></i>
+                </span>
+              </div>
+            </a>
+            <ul class="sub-nav collapse  list-unstyled border rounded-3" id="blog-sidebar">
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'left-sidebar'}}active{{/compare}}"
+                  href="{{path}}blog/left-sidebar.html"> Left Sidebar </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'right-sidebar'}}active{{/compare}}"
+                  href="{{path}}blog/right-sidebar.html"> Right Sidebar </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#blog-single" role="button" aria-expanded="false"
+              aria-controls="blog-single">
+              <div class="d-flex justify-content-between">
+                <span class="item-name">Blog Single</span>
+                <span class="menu-icon">
+                  <i class="ph ph-caret-down align-middle down-to-right"></i>
+                </span>
+              </div>
+            </a>
+            <ul class="sub-nav collapse  list-unstyled border rounded-3" id="blog-single">
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'blog-detail'}}active{{/compare}}"
+                  href="{{path}}blog/blog-detail.html"> Standard </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'blog-audio'}}active{{/compare}}"
+                  href="{{path}}blog/blog-audio.html"> Audio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'blog-video'}}active{{/compare}}"
+                  href="{{path}}blog/blog-video.html"> Video </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'blog-link'}}active{{/compare}}"
+                  href="{{path}}blog/blog-link.html"> Link </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'blog-quote'}}active{{/compare}}"
+                  href="{{path}}blog/blog-quote.html"> Quote </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'blog-gallery'}}active{{/compare}}"
+                  href="{{path}}blog/blog-gallery.html"> Gallery </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#pagination-style" role="button" aria-expanded="false"
+              aria-controls="pagination-style">
+              <div class="d-flex justify-content-between">
+                <span class="item-name">Pagination Style</span>
+                <span class="menu-icon">
+                  <i class="ph ph-caret-down align-middle down-to-right"></i>
+                </span>
+              </div>
+            </a>
+            <ul class="sub-nav collapse  list-unstyled border rounded-3" id="pagination-style">
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'blog-pagination'}}active{{/compare}}"
+                  href="{{path}}blog/blog-pagination.html"> Blog Pagination </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'blog-loadmore'}}active{{/compare}}"
+                  href="{{path}}blog/blog-loadmore.html">
+                  Blog Load More </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{#compare active '==' 'blog-infinite-scroll'}}active{{/compare}}"
+                  href="{{path}}blog/blog-infinite-scroll.html">
+                  Blog Infinite Scroll </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#shop" role="button" aria-expanded="false"
+          aria-controls="shop">
+          <div class="d-flex justify-content-between">
+            <span class="item-name">Shop</span>
+            <span class="menu-icon">
+              <i class="ph ph-caret-down align-middle"></i>
+            </span>
+          </div>
+        </a>
+        <ul class="sub-nav collapse  list-unstyled border rounded-3" id="shop">
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'shop'}}active{{/compare}}" href="{{path}}shop/shop.html"> Shop
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'my-account'}}active{{/compare}}"
+              href="{{path}}shop/my-account.html"> My Account </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'cart'}}active{{/compare}}" href="{{path}}shop/cart.html"> Cart
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'wishlist'}}active{{/compare}}" href="{{path}}shop/wishlist.html">
+              Wishlist </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'checkout'}}active{{/compare}}" href="{{path}}shop/checkout.html">
+              Checkout </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{#compare active '==' 'order-tracking'}}active{{/compare}}"
+              href="{{path}}shop/order-tracking.html"> Order Tracking </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Horizontal Menu End -->

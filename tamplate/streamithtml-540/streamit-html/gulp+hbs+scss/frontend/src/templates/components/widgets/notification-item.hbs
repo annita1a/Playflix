@@ -1,0 +1,28 @@
+<li class="notification-item">
+    <div class="d-flex align-items-center justify-content-between gap-3">
+        <div class="d-flex align-items-md-center flex-md-row flex-column gap-3">
+            <div class="notification-image flex-shrink-0">
+                <a href="{{path}}movie-detail.html" class="link-overlay" data-user_id="12" data-notification_id="1">
+                    <img decoding="async" src="{{path}}assets/images/media/{{notification-image}}" alt="image"
+                        class="img-fluid object-cover result-image">
+                </a>
+            </div>
+            <div class="notification-message">
+                <a href="{{path}}movie-detail.html" class="link-overlay message" data-user_id="12"
+                    data-notification_id="1">
+                    {{title}} </a>
+                <span class="d-block">
+                    {{days}} </span>
+            </div>
+        </div>
+        <div class="notification-actions flex-shrink-0">
+            <div class="d-flex justify-content-center align-items-center gap-3">
+                <button type="button" class="btn btn-secondary btn-circle border notification-action-btn"
+                    data-user_id="12" data-notification_id="1" data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-title="Mark as read">
+                    <i class="icon-eye-2"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</li>

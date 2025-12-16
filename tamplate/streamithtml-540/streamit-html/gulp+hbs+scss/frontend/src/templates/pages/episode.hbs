@@ -1,0 +1,235 @@
+{{#extend layout title="Episode" active="episode" isHeader="true" isFooter="true" path="./" isSwiperSlider="true"
+bodyClass="custom-header-relative" isVideoJs="true" isSweetalert="true"}}
+{{#content "content"}}
+<!-- Banner Start -->
+  <div class="iq-main-slider site-video position-relative">
+    <video id="my-video" poster="{{path}}assets/images/player/player-poster.webp"
+      class="my-video video-js vjs-big-play-centered w-100" loop autoplay muted preload="auto" data-setup='{
+                  "techOrder": ["youtube"],
+                  "sources": [{
+                      "type": "video/youtube",
+                      "src": "https://www.youtube.com/watch?v=spGSAeqxVUc"
+                  }],
+                  "youtube": {         
+                      "modestbranding": 1,
+                      "rel": 0,
+                      "showinfo": 0,
+                      "autoplay": 1
+                  },
+                  "fullscreen": true
+              }'>
+    </video>
+  </div>
+<!-- Banner End -->
+
+{{!-- Detail part Start --}}
+<div class="details-part">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="trending-info  pt-0 pb-0">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-12 col-12 mb-auto">
+                            {{> components/widgets/movie-description moveName="Hidden Allies"
+                            movieReleased="2025" movieViews="1.2K views"
+                            isNotimdbRating="true" movieDuration="30min"
+                            isNotTVShowbadge="true"
+                            isNotstartWatching="true"
+                            isNotwatchList="true"}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- detail part End --}}
+
+{{!-- Latest Episodes Start --}}
+<div class="container-fluid">
+    <div class="overflow-hidden">
+        <section class="recommended-block">
+            <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-2">
+                <h5 class="main-title text-capitalize mb-0 fw-medium">Episodes</h5>
+            </div>
+            <ul class="nav nav-pills custom-tab-slider episode-nav-btn gap-3" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active show" data-bs-toggle="pill" href="#season-1" role="tab"
+                        aria-selected="true">
+                        Season 1
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#season-2" role="tab" aria-selected="false">
+                        Season 2
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="season-1" class="tab-pane animated fadeInUp active show" role="tabpanel">
+                    <div class="overflow-hidden">
+                        <div class="card-style-slider">
+                            <div class="position-relative swiper swiper-card mt-4" data-slide="5" data-laptop="5"
+                                data-tab="2" data-mobile="2" data-mobile-sm="1" data-autoplay="false" data-loop="true">
+                                 <div class="p-0 swiper-wrapper m-0 list-inline">
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s1e5-Lost-Souls.webp" id="01" showEpisod="S01E01" episodDate="October 1, 2020"
+                                    episodTime="30m" episodTitle="05: Lost Souls" episode-title="true"
+                                    episode-titles="true" episode-titles-text="05: Lost Souls" episode-detail="true"
+                                    episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s1e4-the-signal.webp" id="02" showEpisod="S01E02" episodDate="October 8, 2020"
+                                    episodTime="45m" episodTitle="04: The Signal" episode-title="true"
+                                    episode-titles="true" episode-titles-text="04: The Signal"
+                                    episode-detail="true" episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s1e3-All-Change.webp" id="03" showEpisod="S01E03" episodDate="October 15, 2020"
+                                    episodTime="36m" episodTitle="03: All Change" episode-title="true"
+                                    episode-titles="true" episode-titles-text="03: All Change"
+                                    episode-detail="true" episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s1e2-king-of-kings.webp" id="04" showEpisod="S01E04" episodDate="October 22, 2020"
+                                    episodTime="30m" episodTitle="E02: King of King" episode-title="true"
+                                    episode-titles="true" episode-titles-text="E02: King of King" episode-detail="true"
+                                    episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s1e1-the-buddha.webp" id="04" showEpisod="S01E04" episodDate="October 22, 2020"
+                                    episodTime="41m" episodTitle="E01: The Buddha" episode-title="true"
+                                    episode-titles="true" episode-titles-text="E01: The Buddha" episode-detail="true"
+                                    episode-detail-text="As the chemistry teacher alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="season-2" class="tab-pane animated fadeInUp" role="tabpanel">
+                    <div class="overflow-hidden">
+                        <div class="card-style-slider">
+                            <div class="position-relative swiper swiper-card mt-4" data-slide="5" data-laptop="5"
+                                data-tab="2" data-mobile="2" data-mobile-sm="1" data-autoplay="false" data-loop="true">
+                                <div class="p-0 swiper-wrapper m-0  list-inline">
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s2e4-the-final-straw.webp" id="01" showEpisod="S01E01" episodDate="October 1, 2020"
+                                    episodTime="45m" episodTitle="04: The Final Straw" episode-title="true"
+                                    episode-titles="true" episode-titles-text="04: The Final Straw" episode-detail="true"
+                                    episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s2e3-the-raft-of-the-medusa.webp" id="02" showEpisod="S01E02" episodDate="October 8, 2020"
+                                    episodTime="35m" episodTitle="03: The Raft of the Medusa" episode-title="true"
+                                    episode-titles="true" episode-titles-text="03: The Raft of the Medusa"
+                                    episode-detail="true" episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                                <div class="swiper-slide">
+                                    {{> components/widgets/episode-card episodePath="episode.html"
+                                    showImg="media/episode/s2e2-its-only-magic.webp" id="04" showEpisod="S01E04" episodDate="October 22, 2020"
+                                    episodTime="41m" episodTitle="E02: It's Only Magic" episode-title="true"
+                                    episode-titles="true" episode-titles-text="E02: It's Only Magic" episode-detail="true"
+                                    episode-detail-text="As the chemistry teacher's alter ego emerged, a ruthless and cunning individual known only by a pseudonym, the boundaries between right and wrong blurred into obscurity. The series masterfully explored the consequences of choices, unraveling a narrative that left viewers questioning the very fabric of morality."}}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{!-- Latest Episodes End --}}
+
+
+        <!-- More Like This Start -->
+
+        <div class="upcomimg-block">
+            <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+                <h5 class="main-title text-capitalize mb-0">More Like this</h5>
+            </div>
+            <div class="card-style-slider">
+                <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
+                    data-mobile="2" data-mobile-sm="1" data-autoplay="false" data-loop="true" data-navigation="true"
+                    data-pagination="true">
+                    <ul class="p-0 swiper-wrapper m-0  list-inline">
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/migration-portrait.webp"
+                            card-title="Migration" card-path="tv-show-detail.html" 
+                            movie-time="2hr : 30mins" prodct-primium="true" card-lang="English (UK)"}}
+                        </li>
+                        <li class="swiper-slide">{{>components/widgets/card-style
+                            card-image="media/tianic.webp" card-path="tv-show-detail.html"
+                            card-title="Titanic" movie-time="1hr : 30mins" prodct-primium="true" card-lang="English
+                            (UK)"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/the-crew-portrait.webp" card-path="tv-show-detail.html"
+                            card-title="The Real Crew" movie-time="1hr : 55mins" prodct-primium="true"
+                            card-lang="English (UK)"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style
+                            card-image="media/midnightHunter-portrait.webp"
+                            card-title="Midnight Hunter" card-path="tv-show-detail.html"
+                            movie-time="1hr : 22mins" card-lang="English (UK)"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/spiderman.webp"
+                            card-title="Spider Sentinel" movie-time="1hr : 30mins" card-path="tv-show-detail.html"
+                            card-lang="English (UK)"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/kung-fu-panda-portrait.webp"
+                            card-title="Masters Of Kung Fu: The Panda Legend" movie-time="2hr : 45mins" card-path="tv-show-detail.html"
+                            prodct-primium="true" card-lang="English
+                            (UK)"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/hanuman-portrait.webp"
+                            card-title="The Epic Journey Of Hanuman" card-path="tv-show-detail.html"
+                            movie-time="1hr : 45mins" card-lang="English (UK)"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/krishna-portrait.webp"
+                            card-title="Vasudeva: The Eternal Journey" card-path="tv-show-detail.html"
+                            movie-time="2hr : 30mins" card-lang="English (UK)"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/minions-portrait.webp"
+                            card-title="Minions" card-path="tv-show-detail.html" card-lang="English"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style
+                            card-image="media/pirates-ofdayones-orignal.webp" card-title="Pirates Of Day
+                            One" card-path="tv-show-detail.html"
+                            card-lang="English"}}
+                        </li>
+                    </ul>
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+        <!-- More Like This End -->
+
+        <div class="section-padding-bottom">
+            {{> components/widgets/details-review }}
+        </div>
+    </div>
+</div>
+
+{{>components/widgets/details-description-modal isEpisodepage="true" isnotmovieTitle="true" movie-name="Hidden Allies"
+movieDuration="30min" year="2025"
+isnotimdbRating="true" views="1.2K views"}}
+{{!-- Mobile Footer --}}
+{{> components/widgets/mobile-footer}}
+{{/content}}
+{{/extend}}

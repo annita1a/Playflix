@@ -1,0 +1,115 @@
+<div class="iq-blog-box">
+    <div class="iq-blog-image clearfix">
+        <a href="{{path}}blog/blog-detail.html">
+            <img src="{{path}}assets/images/blog/{{blogImg}}" alt="blogImg-{{id}}" class="img-fluid w-100 rounded-3">
+        </a>
+    </div>
+    <div class="iq-blog-detail">
+        <div class="iq-blog-meta d-flex align-item-center flex-wrap">
+            <ul class="list-inline mb-0">
+                <li class="posted-by">
+                    <span class="post-date d-flex align-item-center gap-1">
+                        {{#if blog-tag-icon}}
+                        <i class="icon icon-tag"></i>
+                        {{else}}
+                        <i class="ph ph-user"></i>
+                        {{/if}}
+                        <a href="{{path}}blog/blog-author.html">{{blogAuthor}}</a>
+                    </span>
+                </li>
+                <li class="posted-on">
+                    <span class="post-author d-flex align-item-center gap-1">
+                        <i class="icon icon-calendar-2"></i>
+                        <a href="{{path}}blog/blog-date.html">
+                            <span>{{blogDate}}</span></a>
+                    </span>
+                </li>
+                {{#if blogcategorytext}}
+                <li class="blog-category">
+                    <a href="#" class="pe-1">{{blogCategorytext1}}</a>
+                </li>
+                <li class="blog-category">
+                    <a href="#" class="pe-1">{{blogCategorytext2}}</a>
+                </li>
+                <li class="blog-category">
+                    <a href="#" class="pe-1">{{blogCategorytext3}}</a>
+                </li>
+                <li class="blog-category">
+                    <a href="#" class="pe-1">{{blogCategorytext4}}</a>
+                </li>
+                {{else}}
+                {{/if}}
+            </ul>
+        </div>
+
+        <h4 class="mb-3 blog-heading">
+            <a href="{{path}}blog/blog-detail.html">
+                {{blogTitle}}
+            </a>
+        </h4>
+        <p class="line-count-2">{{blogText}}</p>
+        {{#if blogtag}}
+        <ul class="list-inline d-flex alihn-items-center gap-2 flex-wrap blog-tag">
+            <li><a class="font-size-14 rounded-3 fw-medium" href="javascript:void(0);">{{blogtag1}}</a></li>
+            <li><a class="font-size-14 rounded-3 fw-medium" href="javascript:void(0);">{{blogtag2}}</a></li>
+            <li><a class="font-size-14 rounded-3 fw-medium" href="javascript:void(0);">{{blogtag3}}</a></li>
+        </ul>
+        {{else}}
+        {{/if}}
+        {{#compare linkButton "==" "true"}}
+        <div class="">
+            <a href="{{path}}blog/blog-detail.html"
+                class="btn btn-link blog-readMore p-0 text-capitalize position-relative font-size-14">
+                <span class="">Read More</span>
+                {{#if right-icon}}
+                {{else}}
+                <span><i class="ph ph-caret-right align-middle"></i></span>
+                {{/if}}
+            </a>
+        </div>
+        {{else}}
+        <div class="iq-button">
+            <a href="{{path}}blog/blog-detail.html" class="btn btn-primary text-uppercase position-relative">
+                <span class="button-text">Read More </span>
+                <i class="ph-fill ph-play"></i>
+            </a>
+        </div>
+        {{/compare}}
+        {{#compare isCategory "==" "true"}}
+        <ul class="iq-blog-meta-cat-tag iq-blogcat mt-4">
+            <li class="iq-tag-title">
+                <i class="ph ph-film-strip" aria-hidden="true"></i>
+                Categories:
+            </li>
+            <li>
+                <a href="{{path}}blog/blog-category.html">
+                    {{categoriesTex1}}
+                </a>
+            </li>
+        </ul>
+        {{/compare}}
+        {{#compare isTag "==" "true"}}
+        <ul class="iq-blog-meta-cat-tag iq-blogtag">
+            <li class="iq-tag-title">
+                <i class="ph ph-tag" aria-hidden="true"></i>
+                Tags:
+            </li>
+            <li>
+                <a href="{{path}}blog/blog-tag.html">
+                    {{tagText1}}
+                </a>
+            </li>
+            <li>
+                <a href="{{path}}blog/blog-tag.html">
+                    {{tagText2}}
+                </a>
+            </li>
+            <li>
+                <a href="{{path}}blog/blog-tag.html">
+                    {{tagText3}}
+                </a>
+            </li>
+        </ul>
+        {{/compare}}
+    </div>
+</div>

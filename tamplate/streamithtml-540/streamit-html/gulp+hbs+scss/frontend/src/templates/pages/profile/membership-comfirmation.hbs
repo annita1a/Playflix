@@ -1,0 +1,24 @@
+{{#extend layout title="Membership Confirmation" active="membership-confirmation" isHeader="true" isFooter="true"
+ismegamenu="true"
+path="../"
+isBreadcrumb="true" isSweetalert="true"}}
+{{#content "content"}}
+
+<section class="section-padding">
+    <div class="pmpro container">
+        <section id="pmpro_confirmation-2" class="pmpro_section">
+            <p>Thank you for your membership to Streamit. Your Basic Plan membership is now active.</p>
+            <p>Below are details about your membership account and a receipt for your initial membership order. A
+                welcome email
+                with a copy of your initial membership order has been sent to marvin@demo.com.</p>
+        </section>
+        {{> components/widgets/membership-invoce-card }}
+    </div>
+</section>
+
+{{!-- Mobile Footer --}}
+{{> components/widgets/mobile-footer}}
+{{!-- Mobile Footer End --}}
+
+{{/content}}
+{{/extend}}

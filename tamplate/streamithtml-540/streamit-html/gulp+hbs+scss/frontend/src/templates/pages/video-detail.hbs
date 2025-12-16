@@ -1,0 +1,111 @@
+{{#extend layout title="Video Details" active="video-details" isHeader="true" isFooter="true" path="./"
+isSwiperSlider="true" bodyClass="custom-header-relative" isVideoJs="true" isSelect2="true" isSweetalert="true"}}
+{{#content "content"}}
+<!-- Banner Start -->
+
+<div class="poition-relative">
+    <div class="iq-main-slider site-video position-relative">
+        <video id="my-video" poster="{{path}}assets/images/media/minions.webp"
+            class="my-video video-js vjs-big-play-centered w-100" loop autoplay muted preload="auto" data-setup='{
+                  "techOrder": ["youtube"],
+                  "sources": [{
+                      "type": "video/youtube",
+                      "src": " https://www.youtube.com/watch?v=eq_aKPXuOTg"
+                  }],
+                  "youtube": {         
+                      "modestbranding": 1,
+                      "rel": 0,
+                      "showinfo": 0,
+                      "autoplay": 1
+                  },
+                  "fullscreen": true
+              }'>
+        </video>
+    </div>
+
+
+    {{!-- Detail part Start --}}
+    <div class="movie-detail-part position-relative">
+        <div class="trending-info pt-0 pb-0">
+            <div class="details-parts">
+                {{> components/widgets/movie-description moveName="Minions" movieDuration="50mins"
+                movieReleased="Feb 2017" movieViews="84 views" videoUrl="video-player.html"
+                isVideoPageData="true" movieLanguage="true" movie-lang="English (New Zealand)"
+                }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- Banner End --}}
+
+
+<!-- Upcoming Start -->
+<div class="container-fluid">
+    <div class="overflow-hidden">
+        <section class="upcomimg-block section-padding-top">
+            <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
+                <h5 class="main-title text-capitalize mb-0">Upcoming</h5>
+            </div>
+            <div class="card-style-slider">
+                <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
+                    data-mobile="2" data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true"
+                    data-pagination="true">
+                    <ul class="p-0 swiper-wrapper m-0  list-inline">
+                        <li class="swiper-slide">{{>components/widgets/card-style
+                            card-image="media/kung-fu-panda-portrait.webp"
+                            card-title="Kung Fu Panda" movie-time="00 : 30mins" card-lang="English (UK)"
+                            card-path="video-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/red-portrait.webp"
+                            card-title="Red" movie-time="00 : 55mins" card-lang="English (UK)"
+                            card-path="video-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/lost-in-space-portrait.webp"
+                            card-title="Lost In Space"
+                            movie-time="00 : 22mins" card-lang="English (UK)" card-path="video-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/the-dragon-king-portrait.webp"
+                            card-title="The Dragon King" movie-time="00 : 37mins" prodct-primium="true"
+                            card-lang="English (UK)" card-path="video-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/sonil-portrait.webp"
+                            card-title="Sonil" movie-time="00 : 25mins" card-lang="English
+                            (UK)" card-path="video-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/charlie-chaplin-portrait.webp"
+                            card-title="Charlie Chaplin"
+                            movie-time="00 : 45mins" card-lang="English (UK)" card-path="video-detail.html"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{>components/widgets/card-style card-image="media/gameofhero-portrait.webp" card-title="Champions’ War"
+                            movie-time="00 : 30mins" card-lang="English (UK)" card-path="video-detail.html"}}
+                        </li>
+                    </ul>
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Upcoming End -->
+
+        <section class="mb-5">
+            {{> components/widgets/details-review }}
+        </section>
+
+    </div>
+</div>
+
+{{>components/widgets/details-description-modal isEpisodepage="true" isnotmovieTitle="true" movie-name="ZOMBIE ISLAND"
+movieDuration="50mins" year="2017"
+isnotimdbRating="true" views="84 views" isCategory="true" isTag="true" istextureTitle="true" isLanguadge="true"}}
+
+{{!-- Mobile Footer --}}
+{{> components/widgets/mobile-footer}}
+{{/content}}
+{{/extend}}
