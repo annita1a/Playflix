@@ -1,0 +1,2 @@
+<h1>content-series</h1>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolore, rem beatae fugiat, temporibus assumenda nemo nihil illo maxime tenetur voluptatem non, explicabo distinctio aspernatur voluptate! Commodi inventore laborum est.

@@ -67,285 +67,66 @@
                                 </div>
                                 <ul class="navbar-nav iq-nav-menu  list-unstyled" id="header-menu">
                                     <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="collapse" href="#homePages" role="button" aria-expanded="false"
+                                        <a class="nav-link" data-bs-toggle="collapse" href="?page=home" role="button" aria-expanded="false"
                                             aria-controls="homePages">
                                             <div class="d-flex justify-content-between">
                                                 <span class="item-name">Home</span>
-                                                <span class="menu-icon">
-                                                    <i class="ph ph-caret-down align-middle"></i>
-                                                </span>
+                                               
                                             </div>
                                         </a>
-                                        <ul class="sub-nav collapse  list-unstyled border rounded-3" id="homePages">
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./index.html"> OTT Home
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link active" href="./home.html">Main Home
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./movie.html"> Movie </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./tv-show.html"> TV
-                                                    Show </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./video.html"> Video </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="./merchandise-store.html"> Merchandise Store </a>
-                                            </li>
-                                        </ul>
+                                      
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="collapse" href="#features" role="button" aria-expanded="false"
+                                        <a class="nav-link" data-bs-toggle="collapse" href="../pages.php?page=home" role="button" aria-expanded="false"
                                             aria-controls="homePages">
                                             <div class="d-flex justify-content-between">
-                                                <span class="item-name">Features</span>
+                                                <span class="item-name">Category</span>
                                                 <span class="menu-icon">
                                                     <i class="ph ph-caret-down align-middle"></i>
                                                 </span>
                                             </div>
                                         </a>
                                         <ul class="sub-nav collapse  list-unstyled border rounded-3" id="features">
+                                            
                                             <li class="nav-item">
                                                 <a class="nav-link "
-                                                    href="./download-movie.html">
-                                                    Download Movie </a>
+                                                    href="./restricted-content.html"> Genre  </a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link "
-                                                    href="./restricted-content.html"> Restricted Content </a>
+                                                    href="./related-merchandise.html"> Film </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="./related-merchandise.html"> Related Merchandise </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./geners.html"> Genres
+                                                <a class="nav-link " href="./geners.html"> Series
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link " href="./tags.html"> Tags </a>
+                                                <a class="nav-link " href="./tags.html"> Release Date </a>
                                             </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./cast.html"> Cast </a>
-                                            </li>
+                                           
                                         </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" data-bs-toggle="collapse" href="#pages" role="button" aria-expanded="false"
                                             aria-controls="homePages">
                                             <div class="d-flex justify-content-between">
-                                                <span class="item-name">Pages</span>
-                                                <span class="menu-icon">
-                                                    <i class="ph ph-caret-down align-middle"></i>
-                                                </span>
+                                                <span class="item-name">New & Popular</span>
+                                                
                                             </div>
                                         </a>
-                                        <ul class="sub-nav collapse  list-unstyled border rounded-3" id="pages">
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./about-us.html">
-                                                    About Us </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./contact-us.html">
-                                                    Contact Us </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./faq.html"> FAQ </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="./privacy-policy.html"> Privacy Policy </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="./pricing-plan.html"> Pricing Plan </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="./coming-soon.html"> Coming Soon </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="./error-page-one.html">
-                                                    Error 404 </a>
-                                            </li>
-                                        </ul>
+                                      
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" data-bs-toggle="collapse" href="#blog" role="button" aria-expanded="false"
                                             aria-controls="blog">
                                             <div class="d-flex justify-content-between">
-                                                <span class="item-name">Blog</span>
-                                                <span class="menu-icon">
-                                                    <i class="ph ph-caret-down align-middle"></i>
-                                                </span>
+                                                <span class="item-name">FYP</span>
+                                               
                                             </div>
                                         </a>
-                                        <ul class="sub-nav collapse  list-unstyled border rounded-3" id="blog">
-                                            <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="./blog/blog-listing.html"> Listing </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" data-bs-toggle="collapse" href="#blog-grid" role="button" aria-expanded="false"
-                                                    aria-controls="blog-grid">
-                                                    <div class="d-flex justify-content-between">
-                                                        <span class="item-name">Blog Grid</span>
-                                                        <span class="menu-icon">
-                                                            <i class="ph ph-caret-down align-middle down-to-right"></i>
-                                                        </span>
-                                                    </div>
-                                                </a>
-                                                <ul class="sub-nav collapse  list-unstyled border rounded-3" id="blog-grid">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/one-column.html"> One Column Blog </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/two-column.html"> Two Column Blog </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/three-column.html"> Three Column Blog </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/four-column.html"> Four Column Blog </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" data-bs-toggle="collapse" href="#blog-sidebar" role="button" aria-expanded="false"
-                                                    aria-controls="blog-sidebar">
-                                                    <div class="d-flex justify-content-between">
-                                                        <span class="item-name">Blog Sidebar</span>
-                                                        <span class="menu-icon">
-                                                            <i class="ph ph-caret-down align-middle down-to-right"></i>
-                                                        </span>
-                                                    </div>
-                                                </a>
-                                                <ul class="sub-nav collapse  list-unstyled border rounded-3" id="blog-sidebar">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/left-sidebar.html"> Left Sidebar </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/right-sidebar.html"> Right Sidebar </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" data-bs-toggle="collapse" href="#blog-single" role="button" aria-expanded="false"
-                                                    aria-controls="blog-single">
-                                                    <div class="d-flex justify-content-between">
-                                                        <span class="item-name">Blog Single</span>
-                                                        <span class="menu-icon">
-                                                            <i class="ph ph-caret-down align-middle down-to-right"></i>
-                                                        </span>
-                                                    </div>
-                                                </a>
-                                                <ul class="sub-nav collapse  list-unstyled border rounded-3" id="blog-single">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/blog-detail.html"> Standard </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/blog-audio.html"> Audio </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/blog-video.html"> Video </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/blog-link.html"> Link </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/blog-quote.html"> Quote </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/blog-gallery.html"> Gallery </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" data-bs-toggle="collapse" href="#pagination-style" role="button" aria-expanded="false"
-                                                    aria-controls="pagination-style">
-                                                    <div class="d-flex justify-content-between">
-                                                        <span class="item-name">Pagination Style</span>
-                                                        <span class="menu-icon">
-                                                            <i class="ph ph-caret-down align-middle down-to-right"></i>
-                                                        </span>
-                                                    </div>
-                                                </a>
-                                                <ul class="sub-nav collapse  list-unstyled border rounded-3" id="pagination-style">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/blog-pagination.html"> Blog Pagination </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/blog-loadmore.html">
-                                                            Blog Load More </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link "
-                                                            href="./blog/blog-infinite-scroll.html">
-                                                            Blog Infinite Scroll </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                   
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="collapse" href="#shop" role="button" aria-expanded="false"
-                                            aria-controls="shop">
-                                            <div class="d-flex justify-content-between">
-                                                <span class="item-name">Shop</span>
-                                                <span class="menu-icon">
-                                                    <i class="ph ph-caret-down align-middle"></i>
-                                                </span>
-                                            </div>
-                                        </a>
-                                        <ul class="sub-nav collapse  list-unstyled border rounded-3" id="shop">
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./shop/shop.html"> Shop
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="./shop/my-account.html"> My Account </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./shop/cart.html"> Cart
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./shop/wishlist.html">
-                                                    Wishlist </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="./shop/checkout.html">
-                                                    Checkout </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="./shop/order-tracking.html"> Order Tracking </a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                               
                                 </ul>
                             </div>
                         </nav>
