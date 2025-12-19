@@ -7,12 +7,12 @@
          <div class="slider m-0 p-0 swiper-wrapper home-slider">
             <div class="swiper-slide slide s-bg-1 p-0">
                <div class="banner-home-swiper-image"
-                  style="background-image: url(./assets/homeimg/lan3.jpg)">
+                  style="background-image: url(./assets/homeimg/lan5.jpg)">
                   <div class="container-fluid position-relative">
                      <div class="row align-items-center iq-ltr-direction h-100 slider-content-full-height">
                         <div class="col-lg-6 col-md-12 col-xl-5">
                            <h2 class="texture-text big-font letter-spacing-1 line-count-1 text-capitalize RightAnimate">
-                              Krishna
+                              Better Call Saul
                            </h2>
                            <div class="d-flex flex-wrap align-items-center gap-3 r-mb-23 RightAnimate-two">
                               <div class="slider-ratting d-flex align-items-center">
@@ -45,36 +45,34 @@
                                  <span class="time">2h : 45m</span>
                               </div>
                            </div>
-                           <p class="line-count-3 my-3 RightAnimate-two">Krishna is a mythological fantasy film blending ancient legend and modern warfare. The rebirth of a divine warrior promises to tip the scales in a cosmic battle.
+                           <p class="line-count-3 my-3 RightAnimate-two">The trials and tribulations of criminal lawyer Jimmy McGill in the years leading up to his fateful run-in with Walter White and Jesse Pinkman.
                            </p>
                            <div class="trending-list RightAnimate-three">
                               <div class="text-primary genres font-size-14 mb-1"> Starring:
-                                 <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body">Olivia
-                                    Foster, </a>
-                                 <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body">Leena
-                                    Burton, </a>
-                                 <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body">Ryan
-                                    Pierce </a>
+                                 <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body">Bob Odenkirk, 
+                                 </a>
+                                 <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body">Rhea Seehorn, </a>
+                                 <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body">Jonathan Banks </a>
                               </div>
                               <div class="text-primary genres font-size-14 mb-1"> Genres:
                                  <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body">
-                                    Action,
+                                    Drug Crime,
                                  </a>
                                  <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body">
-                                    Animation,
+                                    Epic,
                                  </a>
                                  <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body">
-                                    Mystery
+                                    Tragedy
                                  </a>
                               </div>
                               <div class="text-primary tag font-size-14"> Tag:
                                  <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body">
-                                    Action,
+                                    Legal Drama,
                                  </a>
                                  <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body ">
-                                    Adventure, </a>
+                                    Crime, </a>
                                  <a href="view-all-movie.html" class="fw-normal text-decoration-none text-body ">
-                                    Horror
+                                    Psychological Drama
                                  </a>
                               </div>
                            </div>
