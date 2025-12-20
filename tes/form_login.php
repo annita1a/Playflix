@@ -28,7 +28,7 @@ if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
     <link rel="stylesheet" href="./assets/frontend/vendor/font-awesome/css/all.min.css" />
 
     <!-- Iconly css -->
-    <link rel="stylesheet" href="./assets/vendor/iconly/css/style.css" />
+    <link rel="stylesheet" href="./assets/vendor/iconly/css/style.css" /> 
 
     <!-- Animate css -->
     <link rel="stylesheet" href="./assets/vendor/animate.min.css" />
