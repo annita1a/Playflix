@@ -5,8 +5,26 @@
                 <div class="d-flex gap-3 gap-xl-0 align-items-center">
                     <div class="d-flex align-items-center gap-2 gap-md-3">
                         <div class="logo-default">
-                            <a class="navbar-brand text-primary me-0" href="./index.html">
-                                <img class="img-fluid logo" src="./assets/images/logo.png" loading="lazy" alt="streamit" />
+
+                            <a class="navbar-brand me-0" href="./index.html" style="text-decoration: none !important; display: inline-block;">
+                                <div style="
+        display: flex; 
+        align-items: center; 
+        /* Menggunakan font Inter atau Helvetica agar terlihat tipis dan modern */
+        font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; 
+        font-size: 26px; 
+        /* Weight 600 membuat teks lebih ramping/kurus tapi tetap tegas */
+        font-weight: 600; 
+        /* Letter spacing 0.5px memberikan kesan mewah dan lega */
+        letter-spacing: 0.5px; 
+        line-height: 1;
+        padding: 0 !important;
+        margin: 0 !important;
+    ">
+                                    <span style="color: #D40000; text-transform: uppercase;">PLAY</span>
+
+                                    <span style="color: #E0E0E0; text-transform: uppercase;">FLIX</span>
+                                </div>
                             </a>
                         </div>
                         <div class="logo-hotstar">
@@ -44,7 +62,7 @@
                             <div class="navbar-brand ms-3">
                                 <div class="logo-default">
                                     <a class="navbar-brand text-primary me-0" href="./index.html">
-                                        <img class="img-fluid logo" src="./assets/images/logo.png" loading="lazy" alt="streamit" />
+                                        <img class="img-fluid logo" src="./assets/images/Logo brand Playflix.png" loading="lazy" alt="streamit" />
                                     </a>
                                 </div>
                                 <div class="logo-hotstar">
@@ -103,8 +121,8 @@
 
                                 </ul>
                             </li>
-                          
-                             <li class="nav-item">
+
+                            <li class="nav-item">
                                 <a class="nav-link "
                                     href="dashboard.php?page=newpopular"> New & Popular </a>
                             </li>
@@ -114,7 +132,7 @@
                                     href="dashboard.php?page=fyp"> FYP </a>
                             </li>
 
-                           
+
 
                         </ul>
                     </div>

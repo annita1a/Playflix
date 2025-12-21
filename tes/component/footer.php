@@ -6,9 +6,29 @@
                         <div class="footer-logo">
                             <!--Logo -->
                             <div class="logo-default">
-                                <a class="navbar-brand text-primary me-0" href="./index.html">
+                                <!-- <a class="navbar-brand text-primary me-0" href="./index.html">
                                     <img class="img-fluid logo" src="./assets/images/logo.png" loading="lazy" alt="streamit" />
-                                </a>
+                                </a> -->
+                                <a class="navbar-brand me-0" href="./index.html" style="text-decoration: none !important; display: inline-block;">
+                                <div style="
+        display: flex; 
+        align-items: center; 
+        /* Menggunakan font Inter atau Helvetica agar terlihat tipis dan modern */
+        font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; 
+        font-size: 26px; 
+        /* Weight 600 membuat teks lebih ramping/kurus tapi tetap tegas */
+        font-weight: 600; 
+        /* Letter spacing 0.5px memberikan kesan mewah dan lega */
+        letter-spacing: 0.5px; 
+        line-height: 1;
+        padding: 0 !important;
+        margin: 0 !important;
+    ">
+                                    <span style="color: #D40000; text-transform: uppercase;">PLAY</span>
+
+                                    <span style="color: #E0E0E0; text-transform: uppercase;">FLIX</span>
+                                </div>
+                            </a>
                             </div>
                             <div class="logo-hotstar">
                                 <a class="navbar-brand text-primary me-0" href="./index.html">
@@ -124,7 +144,8 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <p class="font-size-14 mb-0">© <span class="currentYear"></span> <span class="text-primary">STREAMIT.</span>
+                        <p class="font-size-14 mb-0">© <span class="currentYear"></span> <span class="text-primary">PLAY
+FLIX.</span>
                             All
                             Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and
                             content
