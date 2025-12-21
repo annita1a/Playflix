@@ -90,7 +90,7 @@
                                             
                                             <li class="nav-item">
                                                 <a class="nav-link "
-                                                    href="index.php?page=cate-genre""> Genre  </a>
+                                                    href="index.php?page=cate-genre"> Genre  </a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link "
