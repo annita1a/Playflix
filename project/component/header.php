@@ -94,14 +94,14 @@
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link "
-                                                    href="./related-merchandise.html"> Film </a>
+                                                    href="index.php?page=cate-film"> Film </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link " href="./geners.html"> Series
+                                                <a class="nav-link " href="index.php?page=cate-series"> Series
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link " href="./tags.html"> Release Date </a>
+                                                <a class="nav-link " href="index.php?page=cate-date"> Release Date </a>
                                             </li>
                                            
                                         </ul>
