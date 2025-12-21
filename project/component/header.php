@@ -37,99 +37,89 @@
 
                         </div>
                         <!-- Horizontal Menu Start -->
-                        <nav id="navbar_main"
-                            class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav py-xl-0 w-100">
-                            <div class="container-fluid p-lg-0">
-                                <div class="offcanvas-header px-0">
-                                    <div class="navbar-brand ms-3">
-                                        <div class="logo-default">
-                                            <a class="navbar-brand text-primary me-0" href="./index.html">
-                                                <img class="img-fluid logo" src="./assets/images/logo.png" loading="lazy" alt="streamit" />
-                                            </a>
-                                        </div>
-                                        <div class="logo-hotstar">
-                                            <a class="navbar-brand text-primary me-0" href="./index.html">
-                                                <img class="img-fluid logo" src="./assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
-                                            </a>
-                                        </div>
-                                        <div class="logo-prime">
-                                            <a class="navbar-brand text-primary me-0" href="./index.html">
-                                                <img class="img-fluid logo" src="./assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
-                                            </a>
-                                        </div>
-                                        <div class="logo-hulu">
-                                            <a class="navbar-brand text-primary me-0" href="./index.html">
-                                                <img class="img-fluid logo" src="./assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <button type="button" class="btn-close float-end px-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <!-- Horizontal Menu Start -->
+                <nav id="navbar_main"
+                    class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav py-xl-0 w-100">
+                    <div class="container-fluid p-lg-0">
+                        <div class="offcanvas-header px-0">
+                            <div class="navbar-brand ms-3">
+                                <div class="logo-default">
+                                    <a class="navbar-brand text-primary me-0" href="./index.html">
+                                        <img class="img-fluid logo" src="./assets/images/logo.png" loading="lazy" alt="streamit" />
+                                    </a>
                                 </div>
-                                <ul class="navbar-nav iq-nav-menu  list-unstyled" id="header-menu">
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="collapse" href="?page=home" role="button" aria-expanded="false"
-                                            aria-controls="homePages">
-                                            <div class="d-flex justify-content-between">
-                                                <span class="item-name">Home</span>
-                                               
-                                            </div>
-                                        </a>
-                                      
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="collapse" href="../pages.php?page=home" role="button" aria-expanded="false"
-                                            aria-controls="homePages">
-                                            <div class="d-flex justify-content-between">
-                                                <span class="item-name">Category</span>
-                                                <span class="menu-icon">
-                                                    <i class="ph ph-caret-down align-middle"></i>
-                                                </span>
-                                            </div>
-                                        </a>
-                                        <ul class="sub-nav collapse  list-unstyled border rounded-3" id="features">
-                                            
-                                            <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="index.php?page=cate-genre"> Genre  </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link "
-                                                    href="index.php?page=cate-film"> Film </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="index.php?page=cate-series"> Series
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="index.php?page=cate-date"> Release Date </a>
-                                            </li>
-                                           
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="collapse" href="#pages" role="button" aria-expanded="false"
-                                            aria-controls="homePages">
-                                            <div class="d-flex justify-content-between">
-                                                <span class="item-name">New & Popular</span>
-                                                
-                                            </div>
-                                        </a>
-                                      
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="collapse" href="#blog" role="button" aria-expanded="false"
-                                            aria-controls="blog">
-                                            <div class="d-flex justify-content-between">
-                                                <span class="item-name">FYP</span>
-                                               
-                                            </div>
-                                        </a>
-                                   
-                                    </li>
-                               
-                                </ul>
+                                <div class="logo-hotstar">
+                                    <a class="navbar-brand text-primary me-0" href="./index.html">
+                                        <img class="img-fluid logo" src="./assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
+                                    </a>
+                                </div>
+                                <div class="logo-prime">
+                                    <a class="navbar-brand text-primary me-0" href="./index.html">
+                                        <img class="img-fluid logo" src="./assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
+                                    </a>
+                                </div>
+                                <div class="logo-hulu">
+                                    <a class="navbar-brand text-primary me-0" href="./index.html">
+                                        <img class="img-fluid logo" src="./assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
+                                    </a>
+                                </div>
                             </div>
-                        </nav>
+                            <button type="button" class="btn-close float-end px-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <ul class="navbar-nav iq-nav-menu  list-unstyled" id="header-menu">
+
+                            <li class="nav-item">
+                                <a class="nav-link "
+                                    href="index.php?page=home"> Home </a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="collapse" href="../pages.php?page=home" role="button" aria-expanded="false"
+                                    aria-controls="homePages">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="item-name">Category</span>
+                                        <span class="menu-icon">
+                                            <i class="ph ph-caret-down align-middle"></i>
+                                        </span>
+                                    </div>
+                                </a>
+                                <ul class="sub-nav collapse  list-unstyled border rounded-3" id="features">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                            href="index.php?page=cate-genre"> Genre </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                            href="index.php?page=cate-film"> Film </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="index.php?page=cate-series"> Series
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="index.php?page=cate-genre"> Release Date </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                          
+                             <li class="nav-item">
+                                <a class="nav-link "
+                                    href="index.php?page=new-popular"> New & Popular </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link "
+                                    href="index.php?page=fyp"> FYP </a>
+                            </li>
+
+                           
+
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Horizontal Menu End -->
                         <!-- Horizontal Menu End -->
                         <div class="css_prefix-header-right d-flex align-items-center gap-2">
                             <ul
