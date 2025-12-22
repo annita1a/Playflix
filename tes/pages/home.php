@@ -7,7 +7,7 @@
          <div class="slider m-0 p-0 swiper-wrapper home-slider">
             <div class="swiper-slide slide s-bg-1 p-0">
                <div class="banner-home-swiper-image"
-                  style="background-image: url(./assets/homeimg/lan5.jpg)">
+                  style="background-image: url(./assetsx/homeimg/lan5.jpg)">
                   <div class="container-fluid position-relative">
                      <div class="row align-items-center iq-ltr-direction h-100 slider-content-full-height">
                         <div class="col-lg-6 col-md-12 col-xl-5">
@@ -36,7 +36,7 @@
                                  </ul>
                               </div>
                               <span class="d-flex align-items-center gap-1">
-                                 <span class="">5</span><img src="./assets/images/pages/imdb-logo.svg"
+                                 <span class="">5</span><img src="./assetsx/images/pages/imdb-logo.svg"
                                     alt="imdb logo" class="img-fluid imdb-img">
                               </span>
                               <span class="badge rounded-2 text-white bg-secondary font-size-12">NC-17</span>
@@ -126,13 +126,13 @@
             </div>
             <div class="swiper-slide slide s-bg-1 p-0">
                <div class="banner-home-swiper-image"
-                  style="background-image: url(./assets/homeimg/t1.webp);">
+                  style="background-image: url(./assetsx/images/media/breaking-bad.webp);">
                   <div class="container-fluid position-relative ">
                      <div class="row align-items-center iq-ltr-direction h-100 slider-content-full-height">
                         <div class="col-lg-6 col-md-12 col-xl-5">
                            <h2
                               class="texture-text big-font letter-spacing-1 line-count-1 text-capitalize  RightAnimate">
-                              Venom </h2>
+                              Breaking Bad </h2>
                            <div class="d-flex flex-wrap align-items-center gap-3 r-mb-23 RightAnimate-two">
                               <div class="slider-ratting d-flex align-items-center">
                                  <ul
@@ -156,18 +156,17 @@
                               </div>
                               <span class="d-flex align-items-center gap-1">
                                  <span class="">6</span>
-                                 <img src="./assets/images/pages/imdb-logo.svg" alt="imdb logo"
+                                 <img src="./assetsx/images/pages/imdb-logo.svg" alt="imdb logo"
                                     class="img-fluid imdb-img">
                               </span>
                               <div class="d-flex align-items-center gap-1">
                                  <span class="time"> 3 Seasons </span>
                               </div>
                            </div>
-                           <p class="line-count-3 my-3 RightAnimate-two">In a shadowy metropolis where danger lurks in every corner,
-                              an alien symbiote crash-lands on Earth, searching for the perfect host. Enter Eddie Thorn,
-                              an investigative journalist whose life takes a wild turn when he bonds with the mysterious
-                              entity known as Venom. As Eddie struggles to control the powerful, chaotic force within
-                              him, a new threat emerges: a rival symbiote with an insatiable thirst for destruction.
+                           <p class="line-count-3 my-3 RightAnimate-two">Breaking Bad" transcended the confines of
+                              television, becoming a symbol of narrative excellence and pushing the boundaries of
+                              storytelling. Its impact resonated far beyond the screen, leaving an indelible imprint on
+                              popular culture and forever altering the landscape of modern television dramas.
                            </p>
                            <div class="trending-list RightAnimate-three">
                               <div class="text-primary genres font-size-14 mb-1"> Starring:
@@ -253,12 +252,12 @@
             </div>
             <div class="swiper-slide slide s-bg-1 p-0">
                <div class="banner-home-swiper-image"
-                  style="background-image: url(./assets/homeimg/t2.webp);">
+                  style="background-image: url(./assetsx/images/media/charlie-chaplin.webp);">
                   <div class="container-fluid position-relative">
                      <div class="row align-items-center iq-ltr-direction h-100 slider-content-full-height">
                         <div class="col-lg-6 col-md-12 col-xl-5">
                            <h2 class="texture-text big-font letter-spacing-1 line-count-1 text-capitalize RightAnimate">
-                              The First Of Us
+                              Charlie Chaplin
                            </h2>
                            <div class="d-flex flex-wrap align-items-center gap-3 r-mb-23 RightAnimate-two">
                               <div class="slider-ratting d-flex align-items-center">
@@ -283,7 +282,7 @@
                               </div>
                               <span class="d-flex align-items-center gap-1">
                                  <span class="">247</span>
-                                 <img src="./assets/images/pages/imdb-logo.svg" alt="imdb logo"
+                                 <img src="./assetsx/images/pages/imdb-logo.svg" alt="imdb logo"
                                     class="img-fluid imdb-img">
                               </span>
                               <span class="badge rounded-2 text-white bg-secondary font-size-12">80</span>
@@ -391,7 +390,7 @@
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
                               <a href="./movie-detail.html" class="d-block">
-                                  <img src="./assets/homeimg/1.webp" alt="movie-card"
+                                  <img src="./assetsx/homeimg/1.webp" alt="movie-card"
                                       class="w-100 d-block border-0 rounded-3 continue-image">
                               </a>
                           </div>
@@ -429,7 +428,7 @@
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
                               <a href="./movie-detail.html" class="d-block">
-                                  <img src="./assets/homeimg/2.webp" alt="movie-card"
+                                  <img src="./assetsx/homeimg/2.webp" alt="movie-card"
                                       class="w-100 d-block border-0 rounded-3 continue-image">
                               </a>
                           </div>
@@ -467,7 +466,7 @@
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
                               <a href="./movie-detail.html" class="d-block">
-                                  <img src="./assets/homeimg/3.webp" alt="movie-card"
+                                  <img src="./assetsx/homeimg/3.webp" alt="movie-card"
                                       class="w-100 d-block border-0 rounded-3 continue-image">
                               </a>
                           </div>
@@ -505,7 +504,7 @@
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
                               <a href="./movie-detail.html" class="d-block">
-                                  <img src="./assets/homeimg/4.webp" alt="movie-card"
+                                  <img src="./assetsx/homeimg/4.webp" alt="movie-card"
                                       class="w-100 d-block border-0 rounded-3 continue-image">
                               </a>
                           </div>
@@ -543,7 +542,7 @@
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
                               <a href="./movie-detail.html" class="d-block">
-                                  <img src="./assets/homeimg/5.webp" alt="movie-card"
+                                  <img src="./assetsx/homeimg/5.webp" alt="movie-card"
                                       class="w-100 d-block border-0 rounded-3 continue-image">
                               </a>
                           </div>
@@ -581,7 +580,7 @@
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
                               <a href="./movie-detail.html" class="d-block">
-                                  <img src="./assets/homeimg/6.webp" alt="movie-card"
+                                  <img src="./assetsx/homeimg/6.webp" alt="movie-card"
                                       class="w-100 d-block border-0 rounded-3 continue-image">
                               </a>
                           </div>
@@ -619,7 +618,7 @@
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
                               <a href="./movie-detail.html" class="d-block">
-                                  <img src="./assets/homeimg/7.webp" alt="movie-card"
+                                  <img src="./assetsx/homeimg/7.webp" alt="movie-card"
                                       class="w-100 d-block border-0 rounded-3 continue-image">
                               </a>
                           </div>
@@ -666,7 +665,6 @@
       <div class="top-ten-block">
          <div class="d-flex align-items-center justify-content-between  px-1 mb-2 pb-1 mb-md-4 pb-md-0">
             <h4 class="main-title text-capitalize mb-0 fw-medium">top 10 movies to watch</h4>
-            <a href="dashboard.php?page=newpopular" class="text-primary iq-view-all text-decoration-none">View All</a>
          </div>
          <div class="card-style-slider">
             <div class="position-relative swiper swiper-card iq-top-ten-block-slider" data-slide="6" data-laptop="6"
@@ -678,7 +676,7 @@
                          <div class="block-image position-relative">
                              <div class="img-box">
                                  <a class="overly-images" href="./movie-detail.html">
-                                     <img src="./assets/homeimg/pst1.jpg" alt="movie-card"
+                                     <img src="./assetsx/homeimg/pst1.jpg" alt="movie-card"
                                          class="object-cover rounded-3">
                                  </a>
                                  <span class="top-ten-numbers texture-text">1</span>
@@ -690,7 +688,7 @@
                          <div class="block-image position-relative">
                              <div class="img-box">
                                  <a class="overly-images" href="./movie-detail.html">
-                                     <img src="./assets/homeimg/pst5.jpg" alt="movie-card"
+                                     <img src="./assetsx/homeimg/pst5.jpg" alt="movie-card"
                                          class="object-cover rounded-3">
                                  </a>
                                  <span class="top-ten-numbers texture-text">2</span>
@@ -702,7 +700,7 @@
                          <div class="block-image position-relative">
                              <div class="img-box">
                                  <a class="overly-images" href="./movie-detail.html">
-                                     <img src="./assets/homeimg/pst2.jpg" alt="movie-card"
+                                     <img src="./assetsx/homeimg/pst2.jpg" alt="movie-card"
                                          class="object-cover rounded-3">
                                  </a>
                                  <span class="top-ten-numbers texture-text">3</span>
@@ -714,7 +712,7 @@
                          <div class="block-image position-relative">
                              <div class="img-box">
                                  <a class="overly-images" href="./movie-detail.html">
-                                     <img src="./assets/homeimg/pst4.jpg" alt="movie-card"
+                                     <img src="./assetsx/homeimg/pst4.jpg" alt="movie-card"
                                          class="object-cover rounded-3">
                                  </a>
                                  <span class="top-ten-numbers texture-text">4</span>
@@ -726,7 +724,7 @@
                          <div class="block-image position-relative">
                              <div class="img-box">
                                  <a class="overly-images" href="./movie-detail.html">
-                                     <img src="./assets/homeimg/pst7.jpg" alt="movie-card"
+                                     <img src="./assetsx/homeimg/pst7.jpg" alt="movie-card"
                                          class="object-cover rounded-3">
                                  </a>
                                  <span class="top-ten-numbers texture-text">5</span>
@@ -738,7 +736,7 @@
                          <div class="block-image position-relative">
                              <div class="img-box">
                                  <a class="overly-images" href="./movie-detail.html">
-                                     <img src="./assets/homeimg/pst6.jpg" alt="movie-card"
+                                     <img src="./assetsx/homeimg/pst6.jpg" alt="movie-card"
                                          class="object-cover rounded-3">
                                  </a>
                                  <span class="top-ten-numbers texture-text">6</span>
@@ -750,7 +748,7 @@
                          <div class="block-image position-relative">
                              <div class="img-box">
                                  <a class="overly-images" href="./movie-detail.html">
-                                     <img src="./assets/homeimg/s2.webp" alt="movie-card"
+                                     <img src="./assetsx/homeimg/s2.webp" alt="movie-card"
                                          class="object-cover rounded-3">
                                  </a>
                                  <span class="top-ten-numbers texture-text">7</span>
@@ -762,7 +760,7 @@
                          <div class="block-image position-relative">
                              <div class="img-box">
                                  <a class="overly-images" href="./movie-detail.html">
-                                     <img src="./assets/homeimg/s5.webp" alt="movie-card"
+                                     <img src="./assetsx/homeimg/s5.webp" alt="movie-card"
                                          class="object-cover rounded-3">
                                  </a>
                                  <span class="top-ten-numbers texture-text">8</span>
@@ -774,7 +772,7 @@
                          <div class="block-image position-relative">
                              <div class="img-box">
                                  <a class="overly-images" href="./movie-detail.html">
-                                     <img src="./assets/homeimg/s6.webp" alt="movie-card"
+                                     <img src="./assetsx/homeimg/s6.webp" alt="movie-card"
                                          class="object-cover rounded-3">
                                  </a>
                                  <span class="top-ten-numbers texture-text">9</span>
@@ -786,7 +784,7 @@
                          <div class="block-image position-relative">
                              <div class="img-box">
                                  <a class="overly-images" href="./movie-detail.html">
-                                     <img src="./assets/homeimg/s7.webp" alt="movie-card"
+                                     <img src="./assetsx/homeimg/s7.webp" alt="movie-card"
                                          class="object-cover rounded-3">
                                  </a>
                                  <span class="top-ten-numbers texture-text">10</span>
@@ -811,7 +809,6 @@
       <div class="suggested-block section-wraper">
          <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
             <h4 class="main-title text-capitalize mb-0 fw-medium">Suggested For You</h4>
-            <a href="dashboard.php?page=fyp" class="text-primary iq-view-all text-decoration-none">View All</a>
          </div>
          <div class="card-style-slider">
             <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="4" data-tab="3"
@@ -823,7 +820,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./movie-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/s1.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/s1.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -874,7 +871,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./movie-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/s2.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/s2.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -925,7 +922,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./movie-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/s3.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/s3.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -976,7 +973,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./movie-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/s4.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/s4.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1024,7 +1021,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./movie-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/s5.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/s5.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1071,7 +1068,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./movie-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/s6.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/s6.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1122,7 +1119,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./movie-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/s7.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/s7.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1177,7 +1174,7 @@
 
 <!-- movie of the year -->
  <section id="parallex" class="parallax-window bg-attachment-fixed"
-   style="background:url(./assets/homeimg/mov1.webp) fixed;">
+   style="background:url(./assetsx/homeimg/mov1.webp) fixed;">
    <div class="container-fluid h-100">
       <div
          class="row align-items-center justify-content-center h-100 parallaxt-details flex-column-reverse flex-lg-row gap-4 gap-lg-0">
@@ -1209,7 +1206,7 @@
                   <div class="d-flex gap-2 align-items-center">
                      <span>5
                      </span>
-                     <img src="./assets/images/pages/imdb-logo.svg" alt="imdb logo" class="img-fluid">
+                     <img src="./assetsx/images/pages/imdb-logo.svg" alt="imdb logo" class="img-fluid">
                   </div>
                   <div class="d-flex align-items-center gap-1">
                      <i class="ph ph-clock"></i>
@@ -1237,7 +1234,7 @@
          <div class="col-xl-6 col-lg-6 col-md-12 mt-0 mt-lg-5 mt-xl-0">
             <div class="parallax-img">
                <a href="./movie-detail.html">
-                  <img src="./assets/homeimg/mov1.webp" class="img-fluid w-100" loading="lazy"
+                  <img src="./assetsx/homeimg/mov1.webp" class="img-fluid w-100" loading="lazy"
                      alt="bailey">
                </a>
             </div>
@@ -1247,12 +1244,11 @@
 </section>
 
 <!-- last content -->
- <div class="container-fluid pt-5">
+ <div class="container-fluid">
    <div class="overflow-hidden">
       <div class="recommended-blocks section-wraper">
          <div class="d-flex align-items-center justify-content-between px-1 mb-2 pb-1 mb-md-4 pb-md-0">
             <h4 class="main-title text-capitalize mb-0 fw-medium">Recommended TV Show</h4>
-            <a href="dashboard.php?page=genre" class="text-primary iq-view-all text-decoration-none">View All</a>
          </div>
          <div class="card-style-slider">
             <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="4" data-tab="3"
@@ -1264,7 +1260,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/r1.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/r1.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1311,7 +1307,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/r2.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/r2.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1359,7 +1355,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/r3.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/r3.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1411,7 +1407,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/r4.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/r4.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1459,7 +1455,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/r5.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/r5.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1507,7 +1503,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/r6.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/r6.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1554,7 +1550,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/homeimg/r7.webp" alt="movie-card"
+                             <img src="./assetsx/homeimg/r7.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
