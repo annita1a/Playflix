@@ -1260,7 +1260,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/images/media/pirates-ofdayones-orignal.webp" alt="movie-card"
+                             <img src="./assets/homeimg/r1.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1307,7 +1307,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/images/media/the-hunter-portrait.webp" alt="movie-card"
+                             <img src="./assets/homeimg/r2.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1355,7 +1355,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/images/media/lost-in-space-portrait.webp" alt="movie-card"
+                             <img src="./assets/homeimg/r3.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1407,7 +1407,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/images/media/castle-rock-portrait.webp" alt="movie-card"
+                             <img src="./assets/homeimg/r4.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1455,7 +1455,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/images/media/breaking-bad-portrait.webp" alt="movie-card"
+                             <img src="./assets/homeimg/r5.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1503,7 +1503,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/images/media/assassins-creed-portrait.webp" alt="movie-card"
+                             <img src="./assets/homeimg/r6.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
@@ -1550,7 +1550,7 @@
                        <div class="block-images position-relative w-100">
                          <div class="img-box w-100">
                            <a href="./tv-show-detail.html" class="position-relative top-0 bottom-0 start-0 end-0">
-                             <img src="./assets/images/media/vikings-portrait.webp" alt="movie-card"
+                             <img src="./assets/homeimg/r7.webp" alt="movie-card"
                                class="img-fluid object-cover w-100 d-block border-0 rounded-3">
                            </a>
                          </div>
