@@ -1,5 +1,5 @@
 <!--bread-crumb-->
-    <div class="iq-breadcrumb">
+    <!-- <div class="iq-breadcrumb">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-12">
@@ -12,7 +12,8 @@
                 </div>
             </div>
         </div>
-    </div>    <!--bread-crumb-->
+    </div>   -->
+      <!--bread-crumb-->
 
 
 <div class="section-padding view-all-movies">
