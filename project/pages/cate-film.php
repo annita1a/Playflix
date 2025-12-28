@@ -145,7 +145,7 @@
                 <div class="cart-content">
                   <div class="content-left">
                     <h5 class="iq-title text-capitalize">
-                      <a href="./">Vhalave 2</a>
+                      <a href="./">Inside Out</a>
                     </h5>
                     <div class="d-flex align-items-center gap-3">
                       <div class="d-flex align-items-center gap-1">
