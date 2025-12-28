@@ -99,7 +99,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link " href="index.php?page=cate-genre"> Release Date </a>
+                                        <a class="nav-link " href="index.php?page=cate-date"> Release Date </a>
                                     </li>
 
                                 </ul>
