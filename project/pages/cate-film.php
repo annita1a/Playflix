@@ -319,8 +319,8 @@
                 <div class="cart-content">
                   <div class="content-left">
                     <h5 class="iq-title text-capitalize">
-                      <a href="./">The First Of
-                    Us</a>
+                      <a href="./">Alita
+                    </a>
                     </h5>
                     <div class="d-flex align-items-center gap-3">
                       <div class="d-flex align-items-center gap-1">
@@ -329,7 +329,7 @@
                       </div>
                       <div class="d-flex align-items-center gap-2">
                         <i class="ph ph-translate"></i>
-                        <small class="font-size-12">English (UK)</small>
+                        <small class="font-size-12"></small>
                       </div>
                     </div>
                   </div>
@@ -371,8 +371,8 @@
                 <div class="cart-content">
                   <div class="content-left">
                     <h5 class="iq-title text-capitalize">
-                      <a href="./">Game Of
-                    Heros</a>
+                      <a href="./">Alice in
+                    Wonderland</a>
                     </h5>
                     <div class="d-flex align-items-center gap-3">
                       <div class="d-flex align-items-center gap-1">
@@ -381,7 +381,7 @@
                       </div>
                       <div class="d-flex align-items-center gap-2">
                         <i class="ph ph-translate"></i>
-                        <small class="font-size-12">English (UK)</small>
+                        <small class="font-size-12"></small>
                       </div>
                     </div>
                   </div>
@@ -423,7 +423,7 @@
                 <div class="cart-content">
                   <div class="content-left">
                     <h5 class="iq-title text-capitalize">
-                      <a href="./">Venom</a>
+                      <a href="./">Snow White </a>
                     </h5>
                     <div class="d-flex align-items-center gap-3">
                       <div class="d-flex align-items-center gap-1">
@@ -432,7 +432,7 @@
                       </div>
                       <div class="d-flex align-items-center gap-2">
                         <i class="ph ph-translate"></i>
-                        <small class="font-size-12">English (UK)</small>
+                        <small class="font-size-12"></small>
                       </div>
                     </div>
                   </div>
@@ -474,7 +474,7 @@
                 <div class="cart-content">
                   <div class="content-left">
                     <h5 class="iq-title text-capitalize">
-                      <a href="./">Rabbit</a>
+                      <a href="./">The Bad Guys</a>
                     </h5>
                     <div class="d-flex align-items-center gap-3">
                       <div class="d-flex align-items-center gap-1">
@@ -483,7 +483,7 @@
                       </div>
                       <div class="d-flex align-items-center gap-2">
                         <i class="ph ph-translate"></i>
-                        <small class="font-size-12">English (UK)</small>
+                        <small class="font-size-12"></small>
                       </div>
                     </div>
                   </div>
@@ -529,7 +529,7 @@
                 <div class="cart-content">
                   <div class="content-left">
                     <h5 class="iq-title text-capitalize">
-                      <a href="./">Migration</a>
+                      <a href="./">Raya</a>
                     </h5>
                     <div class="d-flex align-items-center gap-3">
                       <div class="d-flex align-items-center gap-1">
@@ -538,7 +538,7 @@
                       </div>
                       <div class="d-flex align-items-center gap-2">
                         <i class="ph ph-translate"></i>
-                        <small class="font-size-12">English (UK)</small>
+                        <small class="font-size-12"></small>
                       </div>
                     </div>
                   </div>

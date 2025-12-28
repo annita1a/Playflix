@@ -27,12 +27,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Rabbit</a>
+                          <a href="./movie-detail.html">20th Century Girl</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English (UK)</small>
+                            <small class="font-size-12">Korea</small>
                           </div>
                         </div>
                       </div>
@@ -74,12 +74,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Venom</a>
+                          <a href="./movie-detail.html">BFG</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English (UK)</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
@@ -121,12 +121,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Migration</a>
+                          <a href="./movie-detail.html">Dora</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English (UK)</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
@@ -168,12 +168,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Game Of Heros</a>
+                          <a href="./movie-detail.html">The Call</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English (UK)</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
@@ -219,13 +219,13 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Better Caill
-                            Saul</a>
+                          <a href="./movie-detail.html">Bird
+                            Box</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English (UK)</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
@@ -271,12 +271,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Kali</a>
+                          <a href="./movie-detail.html">Toy Story 3</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English (UK)</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
@@ -340,12 +340,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Rabbit</a>
+                          <a href="./movie-detail.html">Good Boy</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
@@ -387,12 +387,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Krishna</a>
+                          <a href="./movie-detail.html">When Life  Gives You Tangerines</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
@@ -434,12 +434,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Kali</a>
+                          <a href="./movie-detail.html">Train To Busan </a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
@@ -481,12 +481,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Joker</a>
+                          <a href="./movie-detail.html">Ditto</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
@@ -528,12 +528,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">The Hunter</a>
+                          <a href="./movie-detail.html">The Money</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
@@ -575,12 +575,12 @@
                     <div class="cart-content">
                       <div class="content-left">
                         <h5 class="iq-title text-capitalize">
-                          <a href="./movie-detail.html">Jumanji</a>
+                          <a href="./movie-detail.html">Me call</a>
                         </h5>
                         <div class="d-flex align-items-center gap-3">
                           <div class="d-flex align-items-center gap-2">
                             <i class="ph ph-translate"></i>
-                            <small class="font-size-12">English</small>
+                            <small class="font-size-12"></small>
                           </div>
                         </div>
                       </div>
