@@ -88,9 +88,34 @@ if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
                 <div class="row justify-content-center align-items-center height-self-center vh-100">
                     <div class="col-lg-5 col-md-12 align-self-center">
                         <div class="user-login-card rounded-3">
-                            <a href="./index.html">
+                            <!-- <a href="./index.html">
                                 <img class="img-fluid logo" src="./assets/images/logo.png" alt="#">
+                            </a> -->
+                            <center>
+                                <div class="logo-default">
+
+                            <a class="navbar-brand me-0" href="./index.html" style="text-decoration: none !important; display: inline-block;">
+                                <div style="
+        display: flex; 
+        align-items: center; 
+        /* Menggunakan font Inter atau Helvetica agar terlihat tipis dan modern */
+        font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; 
+        font-size: 34px; 
+        /* Weight 600 membuat teks lebih ramping/kurus tapi tetap tegas */
+        font-weight: 600; 
+        /* Letter spacing 0.5px memberikan kesan mewah dan lega */
+        letter-spacing: 0.5px; 
+        line-height: 1;
+        padding: 0 !important;
+        margin: 0 !important;
+    ">
+                                    <span style="color: #D40000; text-transform: uppercase;">PLAY</span>
+
+                                    <span style="color: #E0E0E0; text-transform: uppercase;">FLIX</span>
+                                </div>
                             </a>
+                        </div>
+                            </center>
                             <div class="sign-in-page-data">
                                 <div class="sign-in-from w-100 m-auto">
                                     <form action="proses_login.php" method="POST">
